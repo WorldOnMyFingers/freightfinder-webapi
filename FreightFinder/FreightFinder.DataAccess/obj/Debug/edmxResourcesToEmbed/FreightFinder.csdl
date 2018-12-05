@@ -1,0 +1,653 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FreightFinderModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Business">
+    <Key>
+      <PropertyRef Name="BusinessId" />
+    </Key>
+    <Property Name="BusinessId" Type="Int32" Nullable="false" />
+    <Property Name="BusinessName" Type="String" MaxLength="250" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Telephone" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="City" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="County" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="District" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Address" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TaxOffice" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TaxNumber" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="MemberShipDate" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Destinations" Relationship="Self.FK_Destinations_Businesses" FromRole="Businesses" ToRole="Destinations" />
+    <NavigationProperty Name="FreightAds" Relationship="Self.FK_FreightAds_Businesses" FromRole="Businesses" ToRole="FreightAds" />
+    <NavigationProperty Name="OffersToVehicles" Relationship="Self.FK_OffersToVehicle_Businesses" FromRole="Businesses" ToRole="OffersToVehicles" />
+    <NavigationProperty Name="ShipperCompanyUsers" Relationship="Self.FK_ShipperCompanyUsers_Businesses" FromRole="Businesses" ToRole="ShipperCompanyUsers" />
+  </EntityType>
+  <EntityType Name="CreditTransfer">
+    <Key>
+      <PropertyRef Name="TransferId" />
+    </Key>
+    <Property Name="TransferId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CompanyId" Type="Int32" Nullable="false" />
+    <Property Name="VehicleId" Type="Int32" Nullable="false" />
+    <Property Name="Amount" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="CompanyBalance" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <NavigationProperty Name="TransportationCompany" Relationship="Self.FK_CreditTransfer_TransportationCompanies" FromRole="CreditTransfer" ToRole="TransportationCompanies" />
+    <NavigationProperty Name="Vehicle" Relationship="Self.FK_CreditTransfer_Vehicles" FromRole="CreditTransfer" ToRole="Vehicles" />
+  </EntityType>
+  <EntityType Name="Destination">
+    <Key>
+      <PropertyRef Name="DestinationId" />
+    </Key>
+    <Property Name="DestinationId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BusinessTitle" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Mobile" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Telephone" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="City" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="County" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="District" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="BusinessId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Business" Relationship="Self.FK_Destinations_Businesses" FromRole="Destinations" ToRole="Businesses" />
+  </EntityType>
+  <EntityType Name="Driver">
+    <Key>
+      <PropertyRef Name="DriverId" />
+    </Key>
+    <Property Name="DriverId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DrivingLicenseNo" Type="Int32" Nullable="false" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="City" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="County" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="District" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="BloodType" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Drivers_Users" FromRole="Drivers" ToRole="Users" />
+    <NavigationProperty Name="Vehicles" Relationship="Self.FK_Vehicles_Drivers" FromRole="Drivers" ToRole="Vehicles" />
+  </EntityType>
+  <EntityType Name="FreightAd">
+    <Key>
+      <PropertyRef Name="FreightAdId" />
+    </Key>
+    <Property Name="FreightAdId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BusinessId" Type="Int32" Nullable="false" />
+    <Property Name="VehicleTypeId" Type="Int32" Nullable="false" />
+    <Property Name="FreightTypeId" Type="Int32" Nullable="false" />
+    <Property Name="Weight" Type="Int32" Nullable="false" />
+    <Property Name="City" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="County" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="District" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="AdDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="LoadingDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="UnitPrice" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="TotalPrice" Type="Decimal" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="KDV" Type="Boolean" Nullable="false" />
+    <Property Name="Lon" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="Lat" Type="Decimal" Precision="10" Scale="0" />
+    <Property Name="Description" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="IsDelivered" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Business" Relationship="Self.FK_FreightAds_Businesses" FromRole="FreightAds" ToRole="Businesses" />
+    <NavigationProperty Name="FreightType" Relationship="Self.FK_FreightAds_FreightTypes" FromRole="FreightAds" ToRole="FreightTypes" />
+    <NavigationProperty Name="VehicleType" Relationship="Self.FK_FreightAds_VehicleTypes" FromRole="FreightAds" ToRole="VehicleTypes" />
+    <NavigationProperty Name="OffersToFreights" Relationship="Self.FK_OffersToFreight_FreightAds" FromRole="FreightAds" ToRole="OffersToFreights" />
+  </EntityType>
+  <EntityType Name="FreightType">
+    <Key>
+      <PropertyRef Name="FreightTypeId" />
+    </Key>
+    <Property Name="FreightTypeId" Type="Int32" Nullable="false" />
+    <Property Name="FreightTypeName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="FreightAds" Relationship="Self.FK_FreightAds_FreightTypes" FromRole="FreightTypes" ToRole="FreightAds" />
+  </EntityType>
+  <EntityType Name="OffersToFreight">
+    <Key>
+      <PropertyRef Name="OfferId" />
+    </Key>
+    <Property Name="OfferId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VehicleId" Type="Int32" Nullable="false" />
+    <Property Name="FreightAdId" Type="Int64" Nullable="false" />
+    <Property Name="AdDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ApproveDate" Type="DateTime" Precision="3" />
+    <Property Name="IsApproved" Type="Boolean" />
+    <NavigationProperty Name="FreightAd" Relationship="Self.FK_OffersToFreight_FreightAds" FromRole="OffersToFreights" ToRole="FreightAds" />
+    <NavigationProperty Name="Vehicle" Relationship="Self.FK_OffersToFreight_Vehicles" FromRole="OffersToFreights" ToRole="Vehicles" />
+    <NavigationProperty Name="Transactions" Relationship="Self.FK_Transaction_FreightAds" FromRole="OffersToFreights" ToRole="Transactions" />
+  </EntityType>
+  <EntityType Name="OffersToVehicle">
+    <Key>
+      <PropertyRef Name="OfferId" />
+    </Key>
+    <Property Name="OfferId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VehiclehAdId" Type="Int32" Nullable="false" />
+    <Property Name="BusinessId" Type="Int32" Nullable="false" />
+    <Property Name="OfferDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ApproveDate" Type="DateTime" Precision="3" />
+    <Property Name="IsApproved" Type="Boolean" />
+    <NavigationProperty Name="Business" Relationship="Self.FK_OffersToVehicle_Businesses" FromRole="OffersToVehicles" ToRole="Businesses" />
+    <NavigationProperty Name="VehicleAd" Relationship="Self.FK_OffersToVehicle_VehicleAds" FromRole="OffersToVehicles" ToRole="VehicleAds" />
+  </EntityType>
+  <EntityType Name="ShipperCompanyUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="BusinessId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Business" Relationship="Self.FK_ShipperCompanyUsers_Businesses" FromRole="ShipperCompanyUsers" ToRole="Businesses" />
+    <NavigationProperty Name="User" Relationship="Self.FK_ShipperCompanyUsers_Users" FromRole="ShipperCompanyUsers" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Transaction">
+    <Key>
+      <PropertyRef Name="TransactionId" />
+    </Key>
+    <Property Name="TransactionId" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VehicleId" Type="Int32" Nullable="false" />
+    <Property Name="OfferId" Type="Int64" Nullable="false" />
+    <Property Name="Amount" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Balance" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <NavigationProperty Name="OffersToFreight" Relationship="Self.FK_Transaction_FreightAds" FromRole="Transactions" ToRole="OffersToFreights" />
+    <NavigationProperty Name="Vehicle" Relationship="Self.FK_Transaction_Vehicles" FromRole="Transactions" ToRole="Vehicles" />
+  </EntityType>
+  <EntityType Name="TransportationCompany">
+    <Key>
+      <PropertyRef Name="CompanyId" />
+    </Key>
+    <Property Name="CompanyId" Type="Int32" Nullable="false" />
+    <Property Name="CompanyName" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Telephone" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="City" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="County" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="District" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Address" Type="Int32" Nullable="false" />
+    <Property Name="TaxOffice" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="TaxNumber" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="KDocumentNumber" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="CreditTransfers" Relationship="Self.FK_CreditTransfer_TransportationCompanies" FromRole="TransportationCompanies" ToRole="CreditTransfer" />
+    <NavigationProperty Name="TransportationCompanyUsers" Relationship="Self.FK_TransportationCompanyUsers_TransportationCompanies" FromRole="TransportationCompanies" ToRole="TransportationCompanyUsers" />
+    <NavigationProperty Name="Vehicles" Relationship="Self.FK_Vehicles_TransportationCompanies" FromRole="TransportationCompanies" ToRole="Vehicles" />
+  </EntityType>
+  <EntityType Name="TransportationCompanyUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="CompanyId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="TransportationCompany" Relationship="Self.FK_TransportationCompanyUsers_TransportationCompanies" FromRole="TransportationCompanyUsers" ToRole="TransportationCompanies" />
+    <NavigationProperty Name="TransportationCompanyUsers1" Relationship="Self.FK_TransportationCompanyUsers_TransportationCompanyUsers" FromRole="TransportationCompanyUsers" ToRole="TransportationCompanyUsers1" />
+    <NavigationProperty Name="TransportationCompanyUser1" Relationship="Self.FK_TransportationCompanyUsers_TransportationCompanyUsers" FromRole="TransportationCompanyUsers1" ToRole="TransportationCompanyUsers" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TC" Type="Int32" Nullable="false" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserType_Id" Type="Int32" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Surname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DateOfBirth" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Telephone" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PicturePath" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Drivers" Relationship="Self.FK_Drivers_Users" FromRole="Users" ToRole="Drivers" />
+    <NavigationProperty Name="ShipperCompanyUsers" Relationship="Self.FK_ShipperCompanyUsers_Users" FromRole="Users" ToRole="ShipperCompanyUsers" />
+    <NavigationProperty Name="UserType" Relationship="Self.FK_Users_UserTypes" FromRole="Users" ToRole="UserTypes" />
+  </EntityType>
+  <EntityType Name="UserType">
+    <Key>
+      <PropertyRef Name="UserTypeId" />
+    </Key>
+    <Property Name="UserTypeId" Type="Int32" Nullable="false" />
+    <Property Name="TypeName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Users_UserTypes" FromRole="UserTypes" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="VehicleAd">
+    <Key>
+      <PropertyRef Name="VehicleAdId" />
+    </Key>
+    <Property Name="VehicleAdId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VehicleId" Type="Int32" Nullable="false" />
+    <Property Name="Lon" Type="Decimal" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="Lat" Type="Decimal" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="AdDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="DestinationCity" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DestinationCounty" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="OffersToVehicles" Relationship="Self.FK_OffersToVehicle_VehicleAds" FromRole="VehicleAds" ToRole="OffersToVehicles" />
+    <NavigationProperty Name="Vehicle" Relationship="Self.FK_VehicleAds_Vehicles" FromRole="VehicleAds" ToRole="Vehicles" />
+  </EntityType>
+  <EntityType Name="VehicleLocation">
+    <Key>
+      <PropertyRef Name="LocationId" />
+    </Key>
+    <Property Name="LocationId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VehicleId" Type="Int32" Nullable="false" />
+    <Property Name="Lon" Type="Decimal" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="Lat" Type="Decimal" Precision="10" Scale="0" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Vehicle" Relationship="Self.FK_VehicleLocations_Vehicles" FromRole="VehicleLocations" ToRole="Vehicles" />
+  </EntityType>
+  <EntityType Name="Vehicle">
+    <Key>
+      <PropertyRef Name="VehicleId" />
+    </Key>
+    <Property Name="VehicleId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DriverId" Type="Int32" Nullable="false" />
+    <Property Name="PlateNumber" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="VehicleTypeId" Type="Int32" Nullable="false" />
+    <Property Name="Capacity" Type="Int32" Nullable="false" />
+    <Property Name="Colour" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="VehicleIdentificationNumber" Type="String" MaxLength="17" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EngineNumber" Type="String" MaxLength="14" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="BrandName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CompanyId" Type="Int32" Nullable="false" />
+    <Property Name="PicturePath" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="IsLoaded" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="CreditTransfers" Relationship="Self.FK_CreditTransfer_Vehicles" FromRole="Vehicles" ToRole="CreditTransfer" />
+    <NavigationProperty Name="Driver" Relationship="Self.FK_Vehicles_Drivers" FromRole="Vehicles" ToRole="Drivers" />
+    <NavigationProperty Name="OffersToFreights" Relationship="Self.FK_OffersToFreight_Vehicles" FromRole="Vehicles" ToRole="OffersToFreights" />
+    <NavigationProperty Name="Transactions" Relationship="Self.FK_Transaction_Vehicles" FromRole="Vehicles" ToRole="Transactions" />
+    <NavigationProperty Name="TransportationCompany" Relationship="Self.FK_Vehicles_TransportationCompanies" FromRole="Vehicles" ToRole="TransportationCompanies" />
+    <NavigationProperty Name="VehicleAds" Relationship="Self.FK_VehicleAds_Vehicles" FromRole="Vehicles" ToRole="VehicleAds" />
+    <NavigationProperty Name="VehicleLocations" Relationship="Self.FK_VehicleLocations_Vehicles" FromRole="Vehicles" ToRole="VehicleLocations" />
+    <NavigationProperty Name="VehicleType" Relationship="Self.FK_Vehicles_VehicleTypes" FromRole="Vehicles" ToRole="VehicleTypes" />
+  </EntityType>
+  <EntityType Name="VehicleType">
+    <Key>
+      <PropertyRef Name="VehicleTypeId" />
+    </Key>
+    <Property Name="VehicleTypeId" Type="Int32" Nullable="false" />
+    <Property Name="VehicleTypeName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="FreightAds" Relationship="Self.FK_FreightAds_VehicleTypes" FromRole="VehicleTypes" ToRole="FreightAds" />
+    <NavigationProperty Name="Vehicles" Relationship="Self.FK_Vehicles_VehicleTypes" FromRole="VehicleTypes" ToRole="Vehicles" />
+  </EntityType>
+  <Association Name="FK_Destinations_Businesses">
+    <End Role="Businesses" Type="Self.Business" Multiplicity="1" />
+    <End Role="Destinations" Type="Self.Destination" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Businesses">
+        <PropertyRef Name="BusinessId" />
+      </Principal>
+      <Dependent Role="Destinations">
+        <PropertyRef Name="BusinessId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FreightAds_Businesses">
+    <End Role="Businesses" Type="Self.Business" Multiplicity="1" />
+    <End Role="FreightAds" Type="Self.FreightAd" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Businesses">
+        <PropertyRef Name="BusinessId" />
+      </Principal>
+      <Dependent Role="FreightAds">
+        <PropertyRef Name="BusinessId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OffersToVehicle_Businesses">
+    <End Role="Businesses" Type="Self.Business" Multiplicity="1" />
+    <End Role="OffersToVehicles" Type="Self.OffersToVehicle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Businesses">
+        <PropertyRef Name="BusinessId" />
+      </Principal>
+      <Dependent Role="OffersToVehicles">
+        <PropertyRef Name="BusinessId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ShipperCompanyUsers_Businesses">
+    <End Role="Businesses" Type="Self.Business" Multiplicity="1" />
+    <End Role="ShipperCompanyUsers" Type="Self.ShipperCompanyUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Businesses">
+        <PropertyRef Name="BusinessId" />
+      </Principal>
+      <Dependent Role="ShipperCompanyUsers">
+        <PropertyRef Name="BusinessId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CreditTransfer_TransportationCompanies">
+    <End Role="TransportationCompanies" Type="Self.TransportationCompany" Multiplicity="1" />
+    <End Role="CreditTransfer" Type="Self.CreditTransfer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TransportationCompanies">
+        <PropertyRef Name="CompanyId" />
+      </Principal>
+      <Dependent Role="CreditTransfer">
+        <PropertyRef Name="CompanyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CreditTransfer_Vehicles">
+    <End Role="Vehicles" Type="Self.Vehicle" Multiplicity="1" />
+    <End Role="CreditTransfer" Type="Self.CreditTransfer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vehicles">
+        <PropertyRef Name="VehicleId" />
+      </Principal>
+      <Dependent Role="CreditTransfer">
+        <PropertyRef Name="VehicleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Drivers_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="Drivers" Type="Self.Driver" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Drivers">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Vehicles_Drivers">
+    <End Role="Drivers" Type="Self.Driver" Multiplicity="1" />
+    <End Role="Vehicles" Type="Self.Vehicle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Drivers">
+        <PropertyRef Name="DriverId" />
+      </Principal>
+      <Dependent Role="Vehicles">
+        <PropertyRef Name="DriverId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FreightAds_FreightTypes">
+    <End Role="FreightTypes" Type="Self.FreightType" Multiplicity="1" />
+    <End Role="FreightAds" Type="Self.FreightAd" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FreightTypes">
+        <PropertyRef Name="FreightTypeId" />
+      </Principal>
+      <Dependent Role="FreightAds">
+        <PropertyRef Name="FreightTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_FreightAds_VehicleTypes">
+    <End Role="VehicleTypes" Type="Self.VehicleType" Multiplicity="1" />
+    <End Role="FreightAds" Type="Self.FreightAd" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VehicleTypes">
+        <PropertyRef Name="VehicleTypeId" />
+      </Principal>
+      <Dependent Role="FreightAds">
+        <PropertyRef Name="VehicleTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OffersToFreight_FreightAds">
+    <End Role="FreightAds" Type="Self.FreightAd" Multiplicity="1" />
+    <End Role="OffersToFreights" Type="Self.OffersToFreight" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="FreightAds">
+        <PropertyRef Name="FreightAdId" />
+      </Principal>
+      <Dependent Role="OffersToFreights">
+        <PropertyRef Name="FreightAdId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OffersToFreight_Vehicles">
+    <End Role="Vehicles" Type="Self.Vehicle" Multiplicity="1" />
+    <End Role="OffersToFreights" Type="Self.OffersToFreight" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vehicles">
+        <PropertyRef Name="VehicleId" />
+      </Principal>
+      <Dependent Role="OffersToFreights">
+        <PropertyRef Name="VehicleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Transaction_FreightAds">
+    <End Role="OffersToFreights" Type="Self.OffersToFreight" Multiplicity="1" />
+    <End Role="Transactions" Type="Self.Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OffersToFreights">
+        <PropertyRef Name="OfferId" />
+      </Principal>
+      <Dependent Role="Transactions">
+        <PropertyRef Name="OfferId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OffersToVehicle_VehicleAds">
+    <End Role="VehicleAds" Type="Self.VehicleAd" Multiplicity="1" />
+    <End Role="OffersToVehicles" Type="Self.OffersToVehicle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VehicleAds">
+        <PropertyRef Name="VehicleAdId" />
+      </Principal>
+      <Dependent Role="OffersToVehicles">
+        <PropertyRef Name="VehiclehAdId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ShipperCompanyUsers_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="ShipperCompanyUsers" Type="Self.ShipperCompanyUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="ShipperCompanyUsers">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Transaction_Vehicles">
+    <End Role="Vehicles" Type="Self.Vehicle" Multiplicity="1" />
+    <End Role="Transactions" Type="Self.Transaction" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vehicles">
+        <PropertyRef Name="VehicleId" />
+      </Principal>
+      <Dependent Role="Transactions">
+        <PropertyRef Name="VehicleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TransportationCompanyUsers_TransportationCompanies">
+    <End Role="TransportationCompanies" Type="Self.TransportationCompany" Multiplicity="1" />
+    <End Role="TransportationCompanyUsers" Type="Self.TransportationCompanyUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TransportationCompanies">
+        <PropertyRef Name="CompanyId" />
+      </Principal>
+      <Dependent Role="TransportationCompanyUsers">
+        <PropertyRef Name="CompanyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Vehicles_TransportationCompanies">
+    <End Role="TransportationCompanies" Type="Self.TransportationCompany" Multiplicity="1" />
+    <End Role="Vehicles" Type="Self.Vehicle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TransportationCompanies">
+        <PropertyRef Name="CompanyId" />
+      </Principal>
+      <Dependent Role="Vehicles">
+        <PropertyRef Name="CompanyId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TransportationCompanyUsers_TransportationCompanyUsers">
+    <End Role="TransportationCompanyUsers" Type="Self.TransportationCompanyUser" Multiplicity="1" />
+    <End Role="TransportationCompanyUsers1" Type="Self.TransportationCompanyUser" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="TransportationCompanyUsers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TransportationCompanyUsers1">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Users_UserTypes">
+    <End Role="UserTypes" Type="Self.UserType" Multiplicity="1" />
+    <End Role="Users" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserTypes">
+        <PropertyRef Name="UserTypeId" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="UserType_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VehicleAds_Vehicles">
+    <End Role="Vehicles" Type="Self.Vehicle" Multiplicity="1" />
+    <End Role="VehicleAds" Type="Self.VehicleAd" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vehicles">
+        <PropertyRef Name="VehicleId" />
+      </Principal>
+      <Dependent Role="VehicleAds">
+        <PropertyRef Name="VehicleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VehicleLocations_Vehicles">
+    <End Role="Vehicles" Type="Self.Vehicle" Multiplicity="1" />
+    <End Role="VehicleLocations" Type="Self.VehicleLocation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Vehicles">
+        <PropertyRef Name="VehicleId" />
+      </Principal>
+      <Dependent Role="VehicleLocations">
+        <PropertyRef Name="VehicleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Vehicles_VehicleTypes">
+    <End Role="VehicleTypes" Type="Self.VehicleType" Multiplicity="1" />
+    <End Role="Vehicles" Type="Self.Vehicle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VehicleTypes">
+        <PropertyRef Name="VehicleTypeId" />
+      </Principal>
+      <Dependent Role="Vehicles">
+        <PropertyRef Name="VehicleTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="FreightFinder" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Businesses" EntityType="Self.Business" />
+    <EntitySet Name="CreditTransfers" EntityType="Self.CreditTransfer" />
+    <EntitySet Name="Destinations" EntityType="Self.Destination" />
+    <EntitySet Name="Drivers" EntityType="Self.Driver" />
+    <EntitySet Name="FreightAds" EntityType="Self.FreightAd" />
+    <EntitySet Name="FreightTypes" EntityType="Self.FreightType" />
+    <EntitySet Name="OffersToFreights" EntityType="Self.OffersToFreight" />
+    <EntitySet Name="OffersToVehicles" EntityType="Self.OffersToVehicle" />
+    <EntitySet Name="ShipperCompanyUsers" EntityType="Self.ShipperCompanyUser" />
+    <EntitySet Name="Transactions" EntityType="Self.Transaction" />
+    <EntitySet Name="TransportationCompanies" EntityType="Self.TransportationCompany" />
+    <EntitySet Name="TransportationCompanyUsers" EntityType="Self.TransportationCompanyUser" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <EntitySet Name="UserTypes" EntityType="Self.UserType" />
+    <EntitySet Name="VehicleAds" EntityType="Self.VehicleAd" />
+    <EntitySet Name="VehicleLocations" EntityType="Self.VehicleLocation" />
+    <EntitySet Name="Vehicles" EntityType="Self.Vehicle" />
+    <EntitySet Name="VehicleTypes" EntityType="Self.VehicleType" />
+    <AssociationSet Name="FK_Destinations_Businesses" Association="Self.FK_Destinations_Businesses">
+      <End Role="Businesses" EntitySet="Businesses" />
+      <End Role="Destinations" EntitySet="Destinations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FreightAds_Businesses" Association="Self.FK_FreightAds_Businesses">
+      <End Role="Businesses" EntitySet="Businesses" />
+      <End Role="FreightAds" EntitySet="FreightAds" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OffersToVehicle_Businesses" Association="Self.FK_OffersToVehicle_Businesses">
+      <End Role="Businesses" EntitySet="Businesses" />
+      <End Role="OffersToVehicles" EntitySet="OffersToVehicles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ShipperCompanyUsers_Businesses" Association="Self.FK_ShipperCompanyUsers_Businesses">
+      <End Role="Businesses" EntitySet="Businesses" />
+      <End Role="ShipperCompanyUsers" EntitySet="ShipperCompanyUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CreditTransfer_TransportationCompanies" Association="Self.FK_CreditTransfer_TransportationCompanies">
+      <End Role="TransportationCompanies" EntitySet="TransportationCompanies" />
+      <End Role="CreditTransfer" EntitySet="CreditTransfers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CreditTransfer_Vehicles" Association="Self.FK_CreditTransfer_Vehicles">
+      <End Role="Vehicles" EntitySet="Vehicles" />
+      <End Role="CreditTransfer" EntitySet="CreditTransfers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Drivers_Users" Association="Self.FK_Drivers_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Drivers" EntitySet="Drivers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Vehicles_Drivers" Association="Self.FK_Vehicles_Drivers">
+      <End Role="Drivers" EntitySet="Drivers" />
+      <End Role="Vehicles" EntitySet="Vehicles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FreightAds_FreightTypes" Association="Self.FK_FreightAds_FreightTypes">
+      <End Role="FreightTypes" EntitySet="FreightTypes" />
+      <End Role="FreightAds" EntitySet="FreightAds" />
+    </AssociationSet>
+    <AssociationSet Name="FK_FreightAds_VehicleTypes" Association="Self.FK_FreightAds_VehicleTypes">
+      <End Role="VehicleTypes" EntitySet="VehicleTypes" />
+      <End Role="FreightAds" EntitySet="FreightAds" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OffersToFreight_FreightAds" Association="Self.FK_OffersToFreight_FreightAds">
+      <End Role="FreightAds" EntitySet="FreightAds" />
+      <End Role="OffersToFreights" EntitySet="OffersToFreights" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OffersToFreight_Vehicles" Association="Self.FK_OffersToFreight_Vehicles">
+      <End Role="Vehicles" EntitySet="Vehicles" />
+      <End Role="OffersToFreights" EntitySet="OffersToFreights" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Transaction_FreightAds" Association="Self.FK_Transaction_FreightAds">
+      <End Role="OffersToFreights" EntitySet="OffersToFreights" />
+      <End Role="Transactions" EntitySet="Transactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OffersToVehicle_VehicleAds" Association="Self.FK_OffersToVehicle_VehicleAds">
+      <End Role="VehicleAds" EntitySet="VehicleAds" />
+      <End Role="OffersToVehicles" EntitySet="OffersToVehicles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ShipperCompanyUsers_Users" Association="Self.FK_ShipperCompanyUsers_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="ShipperCompanyUsers" EntitySet="ShipperCompanyUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Transaction_Vehicles" Association="Self.FK_Transaction_Vehicles">
+      <End Role="Vehicles" EntitySet="Vehicles" />
+      <End Role="Transactions" EntitySet="Transactions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TransportationCompanyUsers_TransportationCompanies" Association="Self.FK_TransportationCompanyUsers_TransportationCompanies">
+      <End Role="TransportationCompanies" EntitySet="TransportationCompanies" />
+      <End Role="TransportationCompanyUsers" EntitySet="TransportationCompanyUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Vehicles_TransportationCompanies" Association="Self.FK_Vehicles_TransportationCompanies">
+      <End Role="TransportationCompanies" EntitySet="TransportationCompanies" />
+      <End Role="Vehicles" EntitySet="Vehicles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TransportationCompanyUsers_TransportationCompanyUsers" Association="Self.FK_TransportationCompanyUsers_TransportationCompanyUsers">
+      <End Role="TransportationCompanyUsers" EntitySet="TransportationCompanyUsers" />
+      <End Role="TransportationCompanyUsers1" EntitySet="TransportationCompanyUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Users_UserTypes" Association="Self.FK_Users_UserTypes">
+      <End Role="UserTypes" EntitySet="UserTypes" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VehicleAds_Vehicles" Association="Self.FK_VehicleAds_Vehicles">
+      <End Role="Vehicles" EntitySet="Vehicles" />
+      <End Role="VehicleAds" EntitySet="VehicleAds" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VehicleLocations_Vehicles" Association="Self.FK_VehicleLocations_Vehicles">
+      <End Role="Vehicles" EntitySet="Vehicles" />
+      <End Role="VehicleLocations" EntitySet="VehicleLocations" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Vehicles_VehicleTypes" Association="Self.FK_Vehicles_VehicleTypes">
+      <End Role="VehicleTypes" EntitySet="VehicleTypes" />
+      <End Role="Vehicles" EntitySet="Vehicles" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

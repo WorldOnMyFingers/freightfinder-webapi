@@ -1,0 +1,5 @@
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.Services/bin/Debug/FreightFinder.Services.dll
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.Services/bin/Debug/FreightFinder.Services.pdb
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.Services/obj/Debug/FreightFinder.Services.dll
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.Services/obj/Debug/FreightFinder.Services.pdb
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.Services/obj/Debug/FreightFinder.Services.csprojResolveAssemblyReference.cache

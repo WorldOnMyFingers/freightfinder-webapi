@@ -1,0 +1,147 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B4083268-98D5-4FED-803D-B529DD9187CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helpers", "Helpers", "{1ACA6DAE-1957-4846-8E35-AED182E06059}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{E02FFF16-C67E-4CF9-BDE3-E9E6E3F4F472}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{74E2779D-9AAF-4FA7-8932-F683B7F835DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreightFinder.Core", "FreightFinder.Core\FreightFinder.Core.csproj", "{F30529F5-411C-426A-B35B-D0E85F3188BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreightFinder.DataAccess", "FreightFinder.DataAccess\FreightFinder.DataAccess.csproj", "{B94E9745-9D46-4264-BDE6-957965CC2F72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreightFinder.Helpers", "FreightFinder.Helpers\FreightFinder.Helpers.csproj", "{258CD20E-59EF-41E8-997F-A99988BAC1C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreightFinder.Helpers.IoC", "FreightFinder.Helpers.IoC\FreightFinder.Helpers.IoC.csproj", "{B9D06788-D222-49BA-BDED-494E1E5AE8CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreightFinder.UI.Web", "FreightFinder.UI.Web\FreightFinder.UI.Web.csproj", "{A8A0795B-60DF-4F75-B87C-E8EB54896B4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestForm", "TestForm\TestForm.csproj", "{C3339038-5D11-476C-9C58-73B144DF2F67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiFreightFinder", "WebApiFreightFinder\WebApiFreightFinder.csproj", "{F50EE1C5-F9FE-4C75-A237-6E7C4803173A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A43D44AA-FD51-481F-A818-9FD60008A6C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreightFinder.Service", "FreightFinder.Service\FreightFinder.Service.csproj", "{D9A34B51-1A06-485D-B6E8-8DEF0292B84F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFreightFinder", "TestFreightFinder\TestFreightFinder.csproj", "{08C6476C-8681-4971-A1D4-FC50E3CAB982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreightFinder.DAL", "FreightFinder.DAL\FreightFinder.DAL.csproj", "{FB11939E-6C95-49C7-A9B5-8A311103840F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreightFinder.TestFixture", "FreightFinder.TestFixture\FreightFinder.TestFixture.csproj", "{3B50642A-7B6F-45EF-AFB3-2007A58C6EEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F30529F5-411C-426A-B35B-D0E85F3188BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F30529F5-411C-426A-B35B-D0E85F3188BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F30529F5-411C-426A-B35B-D0E85F3188BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F30529F5-411C-426A-B35B-D0E85F3188BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B94E9745-9D46-4264-BDE6-957965CC2F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B94E9745-9D46-4264-BDE6-957965CC2F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B94E9745-9D46-4264-BDE6-957965CC2F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B94E9745-9D46-4264-BDE6-957965CC2F72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{258CD20E-59EF-41E8-997F-A99988BAC1C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{258CD20E-59EF-41E8-997F-A99988BAC1C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{258CD20E-59EF-41E8-997F-A99988BAC1C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{258CD20E-59EF-41E8-997F-A99988BAC1C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D06788-D222-49BA-BDED-494E1E5AE8CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D06788-D222-49BA-BDED-494E1E5AE8CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D06788-D222-49BA-BDED-494E1E5AE8CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D06788-D222-49BA-BDED-494E1E5AE8CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8A0795B-60DF-4F75-B87C-E8EB54896B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8A0795B-60DF-4F75-B87C-E8EB54896B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8A0795B-60DF-4F75-B87C-E8EB54896B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8A0795B-60DF-4F75-B87C-E8EB54896B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3339038-5D11-476C-9C58-73B144DF2F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3339038-5D11-476C-9C58-73B144DF2F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3339038-5D11-476C-9C58-73B144DF2F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3339038-5D11-476C-9C58-73B144DF2F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F50EE1C5-F9FE-4C75-A237-6E7C4803173A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F50EE1C5-F9FE-4C75-A237-6E7C4803173A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F50EE1C5-F9FE-4C75-A237-6E7C4803173A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F50EE1C5-F9FE-4C75-A237-6E7C4803173A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9A34B51-1A06-485D-B6E8-8DEF0292B84F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9A34B51-1A06-485D-B6E8-8DEF0292B84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9A34B51-1A06-485D-B6E8-8DEF0292B84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9A34B51-1A06-485D-B6E8-8DEF0292B84F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08C6476C-8681-4971-A1D4-FC50E3CAB982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08C6476C-8681-4971-A1D4-FC50E3CAB982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08C6476C-8681-4971-A1D4-FC50E3CAB982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08C6476C-8681-4971-A1D4-FC50E3CAB982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB11939E-6C95-49C7-A9B5-8A311103840F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB11939E-6C95-49C7-A9B5-8A311103840F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB11939E-6C95-49C7-A9B5-8A311103840F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB11939E-6C95-49C7-A9B5-8A311103840F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B50642A-7B6F-45EF-AFB3-2007A58C6EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B50642A-7B6F-45EF-AFB3-2007A58C6EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B50642A-7B6F-45EF-AFB3-2007A58C6EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B50642A-7B6F-45EF-AFB3-2007A58C6EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F30529F5-411C-426A-B35B-D0E85F3188BB} = {B4083268-98D5-4FED-803D-B529DD9187CA}
+		{B94E9745-9D46-4264-BDE6-957965CC2F72} = {E02FFF16-C67E-4CF9-BDE3-E9E6E3F4F472}
+		{258CD20E-59EF-41E8-997F-A99988BAC1C6} = {1ACA6DAE-1957-4846-8E35-AED182E06059}
+		{B9D06788-D222-49BA-BDED-494E1E5AE8CB} = {1ACA6DAE-1957-4846-8E35-AED182E06059}
+		{A8A0795B-60DF-4F75-B87C-E8EB54896B4E} = {74E2779D-9AAF-4FA7-8932-F683B7F835DB}
+		{D9A34B51-1A06-485D-B6E8-8DEF0292B84F} = {A43D44AA-FD51-481F-A818-9FD60008A6C5}
+		{FB11939E-6C95-49C7-A9B5-8A311103840F} = {E02FFF16-C67E-4CF9-BDE3-E9E6E3F4F472}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 12
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://freightfinderserverapp.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FreightFinder.Core\\FreightFinder.Core.csproj
+		SccProjectTopLevelParentUniqueName1 = FreightFinder.sln
+		SccProjectName1 = FreightFinder.Core
+		SccLocalPath1 = FreightFinder.Core
+		SccProjectUniqueName2 = FreightFinder.DAL\\FreightFinder.DAL.csproj
+		SccProjectTopLevelParentUniqueName2 = FreightFinder.sln
+		SccProjectName2 = FreightFinder.DAL
+		SccLocalPath2 = FreightFinder.DAL
+		SccProjectUniqueName3 = FreightFinder.DataAccess\\FreightFinder.DataAccess.csproj
+		SccProjectTopLevelParentUniqueName3 = FreightFinder.sln
+		SccProjectName3 = FreightFinder.DataAccess
+		SccLocalPath3 = FreightFinder.DataAccess
+		SccProjectUniqueName4 = FreightFinder.Helpers.IoC\\FreightFinder.Helpers.IoC.csproj
+		SccProjectTopLevelParentUniqueName4 = FreightFinder.sln
+		SccProjectName4 = FreightFinder.Helpers.IoC
+		SccLocalPath4 = FreightFinder.Helpers.IoC
+		SccProjectUniqueName5 = FreightFinder.Helpers\\FreightFinder.Helpers.csproj
+		SccProjectTopLevelParentUniqueName5 = FreightFinder.sln
+		SccProjectName5 = FreightFinder.Helpers
+		SccLocalPath5 = FreightFinder.Helpers
+		SccProjectUniqueName6 = FreightFinder.Service\\FreightFinder.Service.csproj
+		SccProjectTopLevelParentUniqueName6 = FreightFinder.sln
+		SccProjectName6 = FreightFinder.Service
+		SccLocalPath6 = FreightFinder.Service
+		SccProjectUniqueName7 = FreightFinder.TestFixture\\FreightFinder.TestFixture.csproj
+		SccProjectName7 = FreightFinder.TestFixture
+		SccLocalPath7 = FreightFinder.TestFixture
+		SccProjectUniqueName8 = FreightFinder.UI.Web\\FreightFinder.UI.Web.csproj
+		SccProjectTopLevelParentUniqueName8 = FreightFinder.sln
+		SccProjectName8 = FreightFinder.UI.Web
+		SccLocalPath8 = FreightFinder.UI.Web
+		SccProjectUniqueName9 = TestFreightFinder\\TestFreightFinder.csproj
+		SccProjectName9 = TestFreightFinder
+		SccLocalPath9 = TestFreightFinder
+		SccProjectUniqueName10 = WebApiFreightFinder\\WebApiFreightFinder.csproj
+		SccProjectName10 = WebApiFreightFinder
+		SccLocalPath10 = WebApiFreightFinder
+		SccProjectUniqueName11 = TestForm\\TestForm.csproj
+		SccProjectName11 = TestForm
+		SccLocalPath11 = TestForm
+	EndGlobalSection
+EndGlobal

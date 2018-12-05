@@ -1,0 +1,5 @@
+C:\FreightFinder\FreightFinder.Helpers\bin\Release\FreightFinder.Helpers.dll
+C:\FreightFinder\FreightFinder.Helpers\bin\Release\FreightFinder.Helpers.pdb
+C:\FreightFinder\FreightFinder.Helpers\obj\Release\FreightFinder.Helpers.dll
+C:\FreightFinder\FreightFinder.Helpers\obj\Release\FreightFinder.Helpers.pdb
+C:\FreightFinder\FreightFinder.Helpers\obj\Release\FreightFinder.Helpers.csproj.CoreCompileInputs.cache

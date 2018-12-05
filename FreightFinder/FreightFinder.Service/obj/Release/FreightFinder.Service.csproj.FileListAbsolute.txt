@@ -1,0 +1,29 @@
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\FreightFinder.Service\bin\Release\FreightFinder.Service.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\FreightFinder.Service\bin\Release\FreightFinder.Service.pdb
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\FreightFinder.Service\bin\Release\FreightFinder.Core.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\FreightFinder.Service\bin\Release\FreightFinder.DataAccess.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\FreightFinder.Service\bin\Release\EntityFramework.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\FreightFinder.Service\bin\Release\FreightFinder.Core.pdb
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\FreightFinder.Service\bin\Release\FreightFinder.DataAccess.pdb
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\FreightFinder.Service\bin\Release\EntityFramework.xml
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\FreightFinder.Service\obj\Release\FreightFinder.Service.csprojResolveAssemblyReference.cache
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\FreightFinder.Service\obj\Release\FreightFinder.Service.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\FreightFinder.Service\obj\Release\FreightFinder.Service.pdb
+C:\FreightFinder\FreightFinder.Service\bin\Release\FreightFinder.Service.dll
+C:\FreightFinder\FreightFinder.Service\bin\Release\FreightFinder.Service.pdb
+C:\FreightFinder\FreightFinder.Service\bin\Release\EntityFramework.dll
+C:\FreightFinder\FreightFinder.Service\bin\Release\FreightFinder.Core.dll
+C:\FreightFinder\FreightFinder.Service\bin\Release\FreightFinder.DAL.dll
+C:\FreightFinder\FreightFinder.Service\bin\Release\FreightFinder.DataAccess.dll
+C:\FreightFinder\FreightFinder.Service\bin\Release\FreightFinder.Core.pdb
+C:\FreightFinder\FreightFinder.Service\bin\Release\FreightFinder.DAL.pdb
+C:\FreightFinder\FreightFinder.Service\bin\Release\FreightFinder.DataAccess.pdb
+C:\FreightFinder\FreightFinder.Service\bin\Release\EntityFramework.xml
+C:\FreightFinder\FreightFinder.Service\obj\Release\FreightFinder.Service.csprojResolveAssemblyReference.cache
+C:\FreightFinder\FreightFinder.Service\obj\Release\FreightFinder.Service.dll
+C:\FreightFinder\FreightFinder.Service\obj\Release\FreightFinder.Service.pdb
+C:\FreightFinder\FreightFinder.Service\bin\Release\AutoMapper.dll
+C:\FreightFinder\FreightFinder.Service\bin\Release\AutoMapper.xml
+C:\FreightFinder\FreightFinder.Service\bin\Release\FreightFinder.DAL.dll.config
+C:\FreightFinder\FreightFinder.Service\bin\Release\FreightFinder.DataAccess.dll.config
+C:\FreightFinder\FreightFinder.Service\obj\Release\FreightFinder.Service.csproj.CoreCompileInputs.cache

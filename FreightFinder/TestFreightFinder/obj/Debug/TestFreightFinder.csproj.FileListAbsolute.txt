@@ -1,0 +1,139 @@
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\obj\Debug\TestFreightFinder.csprojResolveAssemblyReference.cache
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\TestFreightFinder.dll.config
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\TestFreightFinder.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\TestFreightFinder.pdb
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\FreightFinder.Core.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Http.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\WebApiFreightFinder.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Mvc.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Optimization.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.Owin.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\Owin.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.Owin.Security.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\EntityFramework.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Http.Owin.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\FreightFinder.Service.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Razor.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\System.Web.WebPages.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\FreightFinder.DataAccess.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\FreightFinder.Core.pdb
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\WebApiFreightFinder.pdb
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Http.xml
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Mvc.xml
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Optimization.xml
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.Owin.xml
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.Owin.Security.xml
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\EntityFramework.xml
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Http.Owin.xml
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Http.WebHost.xml
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\FreightFinder.Service.pdb
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Razor.xml
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\System.Web.WebPages.xml
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\FreightFinder.DataAccess.pdb
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\obj\Debug\TestFreightFinder.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\obj\Debug\TestFreightFinder.pdb
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\FreightFinder.DAL.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\FreightFinder.DAL.pdb
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\Autofac.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\Autofac.xml
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\Autofac.Integration.WebApi.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\Autofac.Integration.WebApi.xml
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\FreightFinder.Helpers.IoC.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\FreightFinder.Helpers.IoC.pdb
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\NSubstitute.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\TestFreightFinder\bin\Debug\NSubstitute.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\TestFreightFinder.dll.config
+C:\FreightFinder\TestFreightFinder\bin\Debug\TestFreightFinder.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\TestFreightFinder.pdb
+C:\FreightFinder\TestFreightFinder\bin\Debug\Autofac.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\EntityFramework.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\EntityFramework.SqlServer.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\FreightFinder.Core.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\FreightFinder.DAL.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\FreightFinder.Service.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\Newtonsoft.Json.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\NSubstitute.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\System.Net.Http.Formatting.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Http.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\WebApiFreightFinder.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\AutoMapper.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\FreightFinder.DataAccess.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.Owin.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Optimization.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Mvc.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.Owin.Security.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\Owin.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Http.Owin.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\FreightFinder.Helpers.IoC.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Http.WebHost.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\Autofac.Integration.WebApi.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Razor.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\System.Web.WebPages.Razor.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\System.Web.WebPages.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\FreightFinder\TestFreightFinder\bin\Debug\FreightFinder.Core.pdb
+C:\FreightFinder\TestFreightFinder\bin\Debug\FreightFinder.DAL.pdb
+C:\FreightFinder\TestFreightFinder\bin\Debug\FreightFinder.DAL.dll.config
+C:\FreightFinder\TestFreightFinder\bin\Debug\FreightFinder.Service.pdb
+C:\FreightFinder\TestFreightFinder\bin\Debug\WebApiFreightFinder.pdb
+C:\FreightFinder\TestFreightFinder\bin\Debug\WebApiFreightFinder.dll.config
+C:\FreightFinder\TestFreightFinder\bin\Debug\Autofac.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\EntityFramework.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\EntityFramework.SqlServer.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\Newtonsoft.Json.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\NSubstitute.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\System.Net.Http.Formatting.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Http.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\AutoMapper.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\FreightFinder.DataAccess.pdb
+C:\FreightFinder\TestFreightFinder\bin\Debug\FreightFinder.DataAccess.dll.config
+C:\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.Owin.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Optimization.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Mvc.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.Owin.Security.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Http.Owin.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\FreightFinder.Helpers.IoC.pdb
+C:\FreightFinder\TestFreightFinder\bin\Debug\FreightFinder.Helpers.IoC.dll.config
+C:\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Http.WebHost.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\Autofac.Integration.WebApi.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\System.Web.Razor.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\System.Web.WebPages.Razor.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\System.Web.WebPages.xml
+C:\FreightFinder\TestFreightFinder\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\FreightFinder\TestFreightFinder\obj\Debug\TestFreightFinder.csprojResolveAssemblyReference.cache
+C:\FreightFinder\TestFreightFinder\obj\Debug\TestFreightFinder.csproj.CoreCompileInputs.cache
+C:\FreightFinder\TestFreightFinder\obj\Debug\TestFreightFinder.dll
+C:\FreightFinder\TestFreightFinder\obj\Debug\TestFreightFinder.pdb

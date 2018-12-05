@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{F50EE1C5-F9FE-4C75-A237-6E7C4803173A}|" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FreightFinder.Service/FreightServices.cs">
+    <Files>
+      <File FileName="FreightFinder.Services/BusinessService.cs" Line="5" Column="41" />
+      <File FileName="FreightFinder.Service/CompanyService.cs" Line="1" Column="1" />
+      <File FileName="FreightFinder.Service/FreightServices.cs" Line="68" Column="79" />
+      <File FileName="TestForm/Form1.cs" Line="343" Column="57" />
+      <File FileName="../../../../Library/Frameworks/Mono.framework/Versions/5.16.0/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets" Line="2130" Column="5" />
+      <File FileName="WebApiFreightFinder/Services/EmailService.cs" Line="72" Column="41" />
+      <File FileName="WebApiFreightFinder/Controllers/AccountController.cs" Line="398" Column="34" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.UI.FreightFinder.UI.Web PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>TestFreightFinder/TestFreightFinder.csproj</String>
+    <String>TestForm/TestForm.csproj</String>
+    <String>FreightFinder.TestFixture/FreightFinder.TestFixture.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.WebApiFreightFinder PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

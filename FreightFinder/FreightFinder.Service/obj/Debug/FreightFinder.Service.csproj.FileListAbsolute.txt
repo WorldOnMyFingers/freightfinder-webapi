@@ -1,0 +1,51 @@
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.Service.dll
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.Service.pdb
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.Core.dll
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.DataAccess.dll
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.Service/bin/Debug/EntityFramework.dll
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.Core.pdb
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.DataAccess.pdb
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.Service/bin/Debug/EntityFramework.xml
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.Service/obj/Debug/FreightFinder.Service.csprojResolveAssemblyReference.cache
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.Service/obj/Debug/FreightFinder.Service.dll
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.Service/obj/Debug/FreightFinder.Service.pdb
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.DAL.dll
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.DAL.pdb
+C:/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.Service.dll
+C:/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.Service.pdb
+C:/FreightFinder/FreightFinder.Service/bin/Debug/AutoMapper.dll
+C:/FreightFinder/FreightFinder.Service/bin/Debug/EntityFramework.dll
+C:/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.Core.dll
+C:/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.DAL.dll
+C:/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.DataAccess.dll
+C:/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.Core.pdb
+C:/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.DAL.pdb
+C:/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.DAL.dll.config
+C:/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.DataAccess.pdb
+C:/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.DataAccess.dll.config
+C:/FreightFinder/FreightFinder.Service/bin/Debug/AutoMapper.xml
+C:/FreightFinder/FreightFinder.Service/bin/Debug/EntityFramework.xml
+C:/FreightFinder/FreightFinder.Service/obj/Debug/FreightFinder.Service.csprojResolveAssemblyReference.cache
+C:/FreightFinder/FreightFinder.Service/obj/Debug/FreightFinder.Service.csproj.CoreCompileInputs.cache
+C:/FreightFinder/FreightFinder.Service/obj/Debug/FreightFinder.Service.dll
+C:/FreightFinder/FreightFinder.Service/obj/Debug/FreightFinder.Service.pdb
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.Service/obj/Debug/FreightFinder.Service.csprojAssemblyReference.cache
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.Service/obj/Debug/FreightFinder.Service.csproj.CoreCompileInputs.cache
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.Service.dll
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.Service.pdb
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.Service/bin/Debug/AutoMapper.dll
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.Service/bin/Debug/EntityFramework.dll
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.Core.dll
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.DAL.dll
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.DataAccess.dll
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.Service/bin/Debug/System.Device.Portable.dll
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.Core.pdb
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.DAL.pdb
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.DAL.dll.config
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.DataAccess.pdb
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.Service/bin/Debug/FreightFinder.DataAccess.dll.config
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.Service/bin/Debug/AutoMapper.xml
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.Service/bin/Debug/EntityFramework.xml
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.Service/obj/Debug/FreightFinder.Service.csproj.CopyComplete
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.Service/obj/Debug/FreightFinder.Service.dll
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.Service/obj/Debug/FreightFinder.Service.pdb

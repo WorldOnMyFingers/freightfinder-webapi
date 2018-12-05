@@ -1,0 +1,43 @@
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.DataAccess/bin/Debug/FreightFinder.DataAccess.dll.config
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.DataAccess/bin/Debug/FreightFinder.DataAccess.dll
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.DataAccess/bin/Debug/FreightFinder.DataAccess.pdb
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.DataAccess/bin/Debug/EntityFramework.dll
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.DataAccess/bin/Debug/EntityFramework.SqlServer.dll
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.DataAccess/bin/Debug/FreightFinder.Core.dll
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.DataAccess/bin/Debug/FreightFinder.Core.pdb
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.DataAccess/bin/Debug/EntityFramework.xml
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.DataAccess/bin/Debug/EntityFramework.SqlServer.xml
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.DataAccess/obj/Debug/FreightFinder.DataAccess.csprojResolveAssemblyReference.cache
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.DataAccess/obj/Debug/FreightFinder.DataAccess.dll
+C:/Users/Emre/Documents/Visual Studio 2013/Projects/FreightFinder/FreightFinder.DataAccess/obj/Debug/FreightFinder.DataAccess.pdb
+C:/FreightFinder/FreightFinder.DataAccess/bin/Debug/FreightFinder.DataAccess.dll.config
+C:/FreightFinder/FreightFinder.DataAccess/bin/Debug/FreightFinder.DataAccess.dll
+C:/FreightFinder/FreightFinder.DataAccess/bin/Debug/FreightFinder.DataAccess.pdb
+C:/FreightFinder/FreightFinder.DataAccess/bin/Debug/EntityFramework.dll
+C:/FreightFinder/FreightFinder.DataAccess/bin/Debug/EntityFramework.SqlServer.dll
+C:/FreightFinder/FreightFinder.DataAccess/bin/Debug/FreightFinder.Core.dll
+C:/FreightFinder/FreightFinder.DataAccess/bin/Debug/AutoMapper.dll
+C:/FreightFinder/FreightFinder.DataAccess/bin/Debug/FreightFinder.Core.pdb
+C:/FreightFinder/FreightFinder.DataAccess/bin/Debug/EntityFramework.xml
+C:/FreightFinder/FreightFinder.DataAccess/bin/Debug/EntityFramework.SqlServer.xml
+C:/FreightFinder/FreightFinder.DataAccess/bin/Debug/AutoMapper.xml
+C:/FreightFinder/FreightFinder.DataAccess/obj/Debug/FreightFinder.DataAccess.csprojResolveAssemblyReference.cache
+C:/FreightFinder/FreightFinder.DataAccess/obj/Debug/FreightFinder.DataAccess.csproj.CoreCompileInputs.cache
+C:/FreightFinder/FreightFinder.DataAccess/obj/Debug/FreightFinder.DataAccess.dll
+C:/FreightFinder/FreightFinder.DataAccess/obj/Debug/FreightFinder.DataAccess.pdb
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.DataAccess/bin/Debug/FreightFinder.DataAccess.dll.config
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.DataAccess/bin/Debug/FreightFinder.DataAccess.dll
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.DataAccess/bin/Debug/FreightFinder.DataAccess.pdb
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.DataAccess/bin/Debug/EntityFramework.dll
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.DataAccess/bin/Debug/EntityFramework.SqlServer.dll
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.DataAccess/bin/Debug/FreightFinder.Core.dll
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.DataAccess/bin/Debug/AutoMapper.dll
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.DataAccess/bin/Debug/FreightFinder.Core.pdb
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.DataAccess/bin/Debug/EntityFramework.xml
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.DataAccess/bin/Debug/EntityFramework.SqlServer.xml
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.DataAccess/bin/Debug/AutoMapper.xml
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.DataAccess/obj/Debug/FreightFinder.DataAccess.csprojAssemblyReference.cache
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.DataAccess/obj/Debug/FreightFinder.DataAccess.csproj.CoreCompileInputs.cache
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.DataAccess/obj/Debug/FreightFinder.DataAccess.csproj.CopyComplete
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.DataAccess/obj/Debug/FreightFinder.DataAccess.dll
+/Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.DataAccess/obj/Debug/FreightFinder.DataAccess.pdb

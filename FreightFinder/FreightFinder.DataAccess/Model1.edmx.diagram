@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9ff4a1da4fe549bb800482b31468c0e0" Name="Diagram1" ZoomLevel="62">
+        <EntityTypeShape EntityType="FreightFinderModel.Company" Width="1.5" PointX="1.5" PointY="0.875" />
+        <EntityTypeShape EntityType="FreightFinderModel.CompanyType" Width="1.5" PointX="1.5" PointY="15" />
+        <EntityTypeShape EntityType="FreightFinderModel.CreditTransfer" Width="1.5" PointX="11.25" PointY="9.75" />
+        <EntityTypeShape EntityType="FreightFinderModel.Destination" Width="1.5" PointX="3" PointY="28.125" />
+        <EntityTypeShape EntityType="FreightFinderModel.Driver" Width="1.5" PointX="3.75" PointY="20.625" />
+        <EntityTypeShape EntityType="FreightFinderModel.Employment" Width="1.5" PointX="11.25" PointY="5.625" />
+        <EntityTypeShape EntityType="FreightFinderModel.FreightAd" Width="1.5" PointX="3" PointY="8.375" />
+        <EntityTypeShape EntityType="FreightFinderModel.FreightType" Width="1.5" PointX="0.75" PointY="17.5" />
+        <EntityTypeShape EntityType="FreightFinderModel.OffersToFreight" Width="1.5" PointX="8.25" PointY="11.625" />
+        <EntityTypeShape EntityType="FreightFinderModel.OffersToVehicle" Width="1.5" PointX="10.5" PointY="17.875" />
+        <EntityTypeShape EntityType="FreightFinderModel.ShipperCompany" Width="1.5" PointX="0.75" PointY="5.625" />
+        <EntityTypeShape EntityType="FreightFinderModel.ShipperCompanyUser" Width="1.5" PointX="6" PointY="14.375" />
+        <EntityTypeShape EntityType="FreightFinderModel.Transaction" Width="1.5" PointX="10.5" PointY="13.125" />
+        <EntityTypeShape EntityType="FreightFinderModel.TransportationCompany" Width="1.5" PointX="3.75" PointY="15" />
+        <EntityTypeShape EntityType="FreightFinderModel.TransportationCompanyUser" Width="1.5" PointX="6" PointY="18.375" />
+        <EntityTypeShape EntityType="FreightFinderModel.UserAuthorisationType" Width="1.5" PointX="3.75" PointY="3" />
+        <EntityTypeShape EntityType="FreightFinderModel.User" Width="1.5" PointX="1.5" PointY="20.25" />
+        <EntityTypeShape EntityType="FreightFinderModel.UserType" Width="1.5" PointX="1.5" PointY="25.5" />
+        <EntityTypeShape EntityType="FreightFinderModel.VehicleAd" Width="1.5" PointX="8.25" PointY="17.875" />
+        <EntityTypeShape EntityType="FreightFinderModel.VehicleLocation" Width="1.5" PointX="8.25" PointY="8.125" />
+        <EntityTypeShape EntityType="FreightFinderModel.Vehicle" Width="1.5" PointX="6" PointY="8.375" />
+        <EntityTypeShape EntityType="FreightFinderModel.VehicleType" Width="1.5" PointX="0.75" PointY="10.125" />
+        <AssociationConnector Association="FreightFinderModel.FK_Businesses_Companies" />
+        <AssociationConnector Association="FreightFinderModel.FK_Companies_CompanyType" />
+        <AssociationConnector Association="FreightFinderModel.FK_TransportationCompanies_Companies" />
+        <AssociationConnector Association="FreightFinderModel.FK_CreditTransfer_TransportationCompanies" />
+        <AssociationConnector Association="FreightFinderModel.FK_CreditTransfer_Vehicles" />
+        <AssociationConnector Association="FreightFinderModel.FK_Destinations_Businesses" />
+        <AssociationConnector Association="FreightFinderModel.FK_Drivers_Users" />
+        <AssociationConnector Association="FreightFinderModel.FK_Employment_Drivers" />
+        <AssociationConnector Association="FreightFinderModel.FK_Vehicles_Drivers" />
+        <AssociationConnector Association="FreightFinderModel.FK_Employment_TransportationCompanies" />
+        <AssociationConnector Association="FreightFinderModel.FK_Employment_Vehicles" />
+        <AssociationConnector Association="FreightFinderModel.FK_FreightAds_Businesses" />
+        <AssociationConnector Association="FreightFinderModel.FK_FreightAds_FreightTypes" />
+        <AssociationConnector Association="FreightFinderModel.FK_FreightAds_VehicleTypes" />
+        <AssociationConnector Association="FreightFinderModel.FK_OffersToFreight_FreightAds" />
+        <AssociationConnector Association="FreightFinderModel.FK_OffersToFreight_Vehicles" />
+        <AssociationConnector Association="FreightFinderModel.FK_Transaction_FreightAds" />
+        <AssociationConnector Association="FreightFinderModel.FK_OffersToVehicle_Businesses" />
+        <AssociationConnector Association="FreightFinderModel.FK_OffersToVehicle_VehicleAds" />
+        <AssociationConnector Association="FreightFinderModel.FK_ShipperCompanyUsers_Businesses" />
+        <AssociationConnector Association="FreightFinderModel.FK_ShipperCompanyUsers_UserAuthorisationType" />
+        <AssociationConnector Association="FreightFinderModel.FK_ShipperCompanyUsers_Users" />
+        <AssociationConnector Association="FreightFinderModel.FK_Transaction_Vehicles" />
+        <AssociationConnector Association="FreightFinderModel.FK_TransportationCompanyUsers_TransportationCompanies" />
+        <AssociationConnector Association="FreightFinderModel.FK_Vehicles_TransportationCompanies" />
+        <AssociationConnector Association="FreightFinderModel.FK_TransportationCompanyUsers_UserAuthorisationType" />
+        <AssociationConnector Association="FreightFinderModel.FK_TransportationCompanyUsers_Users" />
+        <AssociationConnector Association="FreightFinderModel.FK_Users_UserTypes" />
+        <AssociationConnector Association="FreightFinderModel.FK_VehicleAds_Vehicles" />
+        <AssociationConnector Association="FreightFinderModel.FK_VehicleLocations_Vehicles" />
+        <AssociationConnector Association="FreightFinderModel.FK_Vehicles_VehicleTypes" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

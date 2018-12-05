@@ -1,0 +1,13 @@
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\FreightFinder.Core\bin\Release\FreightFinder.Core.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\FreightFinder.Core\bin\Release\FreightFinder.Core.pdb
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\FreightFinder.Core\obj\Release\FreightFinder.Core.dll
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\FreightFinder.Core\obj\Release\FreightFinder.Core.pdb
+C:\Users\Emre\Documents\Visual Studio 2013\Projects\FreightFinder\FreightFinder.Core\obj\Release\FreightFinder.Core.csprojResolveAssemblyReference.cache
+C:\FreightFinder\FreightFinder.Core\bin\Release\FreightFinder.Core.dll
+C:\FreightFinder\FreightFinder.Core\bin\Release\FreightFinder.Core.pdb
+C:\FreightFinder\FreightFinder.Core\obj\Release\FreightFinder.Core.dll
+C:\FreightFinder\FreightFinder.Core\obj\Release\FreightFinder.Core.pdb
+C:\FreightFinder\FreightFinder.Core\bin\Release\AutoMapper.dll
+C:\FreightFinder\FreightFinder.Core\bin\Release\AutoMapper.xml
+C:\FreightFinder\FreightFinder.Core\obj\Release\FreightFinder.Core.csprojResolveAssemblyReference.cache
+C:\FreightFinder\FreightFinder.Core\obj\Release\FreightFinder.Core.csproj.CoreCompileInputs.cache
