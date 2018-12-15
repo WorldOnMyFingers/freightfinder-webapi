@@ -11,6 +11,7 @@ using FreightFinder.Core.IServices;
 
 namespace WebApiFreightFinder.Controllers
 {
+    [AllowAnonymous]
     public class CompanyController : ApiController
     {
         private readonly ICompanyService _companyService;

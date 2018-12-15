@@ -14,3 +14,9 @@ C:/FreightFinder/FreightFinder.Helpers/obj/Debug/FreightFinder.Helpers.csprojRes
 /Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.Helpers/obj/Debug/FreightFinder.Helpers.csproj.CoreCompileInputs.cache
 /Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.Helpers/obj/Debug/FreightFinder.Helpers.dll
 /Users/emrebabayigit/Downloads/FreightFinder/FreightFinder.Helpers/obj/Debug/FreightFinder.Helpers.pdb
+/Users/emrebabayigit/repo/FreightFinder/FreightFinder.Helpers/bin/Debug/FreightFinder.Helpers.dll
+/Users/emrebabayigit/repo/FreightFinder/FreightFinder.Helpers/bin/Debug/FreightFinder.Helpers.pdb
+/Users/emrebabayigit/repo/FreightFinder/FreightFinder.Helpers/obj/Debug/FreightFinder.Helpers.csprojAssemblyReference.cache
+/Users/emrebabayigit/repo/FreightFinder/FreightFinder.Helpers/obj/Debug/FreightFinder.Helpers.csproj.CoreCompileInputs.cache
+/Users/emrebabayigit/repo/FreightFinder/FreightFinder.Helpers/obj/Debug/FreightFinder.Helpers.dll
+/Users/emrebabayigit/repo/FreightFinder/FreightFinder.Helpers/obj/Debug/FreightFinder.Helpers.pdb
