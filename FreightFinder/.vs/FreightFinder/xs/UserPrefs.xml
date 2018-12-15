@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{F50EE1C5-F9FE-4C75-A237-6E7C4803173A}|" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebApiFreightFinder/Web.config">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FreightFinder.UI.Web/Controllers/HomeController.cs">
     <Files>
       <File FileName="FreightFinder.Services/BusinessService.cs" Line="5" Column="41" />
       <File FileName="FreightFinder.Service/CompanyService.cs" Line="40" Column="1" />
@@ -11,11 +11,12 @@
       <File FileName="WebApiFreightFinder/Controllers/CompanyController.cs" Line="35" Column="1" />
       <File FileName="FreightFinder.DAL/Repository/Repository.cs" Line="27" Column="1" />
       <File FileName="FreightFinder.DAL/UnitOfWork.cs" Line="87" Column="1" />
-      <File FileName="WebApiFreightFinder/Models/IdentityModels.cs" Line="32" Column="1" />
-      <File FileName="WebApiFreightFinder/Web.config" Line="28" Column="35" />
+      <File FileName="WebApiFreightFinder/Models/IdentityModels.cs" Line="34" Column="2" />
+      <File FileName="FreightFinder.UI.Web/Properties/AssemblyInfo.cs" Line="12" Column="29" />
+      <File FileName="FreightFinder.UI.Web/Views/Web.config" Line="20" Column="41" />
+      <File FileName="FreightFinder.UI.Web/Controllers/HomeController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.UI.FreightFinder.UI.Web PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <DisabledProjects>
     <String>TestFreightFinder/TestFreightFinder.csproj</String>
@@ -25,9 +26,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.WebApiFreightFinder PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/emrebabayigit/repo/FreightFinder/WebApiFreightFinder/Controllers/CompanyController.cs" relfile="WebApiFreightFinder/Controllers/CompanyController.cs" line="35" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
