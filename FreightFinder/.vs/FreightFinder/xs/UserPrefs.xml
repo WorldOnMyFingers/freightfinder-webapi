@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{F50EE1C5-F9FE-4C75-A237-6E7C4803173A}|" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebApiFreightFinder/Web.config">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApiFreightFinder/Controllers/FreightController.cs">
     <Files>
       <File FileName="FreightFinder.Services/BusinessService.cs" Line="5" Column="41" />
       <File FileName="FreightFinder.Service/CompanyService.cs" Line="40" Column="1" />
@@ -15,7 +15,8 @@
       <File FileName="FreightFinder.UI.Web/Properties/AssemblyInfo.cs" Line="12" Column="29" />
       <File FileName="FreightFinder.UI.Web/Views/Web.config" Line="20" Column="41" />
       <File FileName="FreightFinder.UI.Web/Controllers/HomeController.cs" Line="1" Column="1" />
-      <File FileName="WebApiFreightFinder/Web.config" Line="1" Column="1" />
+      <File FileName="WebApiFreightFinder/Web.config" Line="24" Column="42" />
+      <File FileName="WebApiFreightFinder/Controllers/FreightController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
