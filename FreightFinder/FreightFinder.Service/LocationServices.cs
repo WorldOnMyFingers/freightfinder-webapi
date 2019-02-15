@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AutoMapper;
 using FreightFinder.Core.Domain;
 using FreightFinder.Core.IoC;
 using FreightFinder.Core.IServices;
+using FreightFinder.Core.ViewModels;
 
 namespace FreightFinder.Service
 {
@@ -17,10 +19,18 @@ namespace FreightFinder.Service
         {
             _unitOfWork = unitOfWork;
         }
-        public void Add(Location location)
+        public void Add(LocationViewModel locationViewModel)
         {
-            _unitOfWork.LocationRepository.Add(location);
-            _unitOfWork.Complete();
+            try
+            {
+                var location = Mapper.Map<Location>(locationViewModel);
+                _unitOfWork.LocationRepository.Add(location);
+                _unitOfWork.Complete();
+            }
+            catch(Exception e)
+            {
+                var message = e.Message;
+            }
         }
 
         public IEnumerable<Location> GetLocationSet(int userId, DateTime startDate)

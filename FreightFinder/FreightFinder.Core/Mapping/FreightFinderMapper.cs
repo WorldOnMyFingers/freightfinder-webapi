@@ -18,6 +18,7 @@ namespace FreightFinder.Core.Mapping
             DtoToViewModelForCountry();
             DtoToViewModelForCity();
             DtoToViewModelForCounty();
+            ViewModelToDtoForLocation();
         }
         public void DtoToViewModelForFreight()
         {
@@ -51,6 +52,15 @@ namespace FreightFinder.Core.Mapping
                 .ForMember(x => x.Country, m => m.MapFrom(s => s.Country.CountryName))
                 .ForMember(x => x.AddressLine, m => m.MapFrom(s => s.AddressLine))
                 .ForMember(x => x.District, m => m.MapFrom(s => s.District));
+        }
+
+        public void ViewModelToDtoForLocation()
+        {
+            CreateMap<LocationViewModel, Location>()
+                .ForMember(x => x.Id, m => m.MapFrom(s => s.Id))
+                .ForMember(x => x.Latitude, m => m.MapFrom(s => s.Latitude))
+                .ForMember(x => x.Longitude, m => m.MapFrom(s => s.Longitude))
+                .ForMember(x => x.LocationType, m => m.MapFrom(s => s.LocationType));
         }
 
         public void DtoToViewModelForCountry()

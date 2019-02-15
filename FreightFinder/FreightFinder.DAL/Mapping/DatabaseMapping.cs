@@ -165,8 +165,8 @@ namespace FreightFinder.DAL
             ToTable("Coordinates");
             HasKey(x => x.Id);
             Property(c => c.LocationType).HasColumnType("int").HasColumnName("Coordinates_Type").IsRequired();
-            Property(c => c.Latitude).HasColumnType("decimal").HasColumnName("Latitude").IsRequired();
-            Property(c => c.Longitude).HasColumnType("decimal").HasColumnName("Longitude").IsRequired();
+            Property(c => c.Latitude).HasColumnType("decimal").HasPrecision(20, 8).HasColumnName("Latitude").IsRequired();
+            Property(c => c.Longitude).HasColumnType("decimal").HasPrecision(20,8).HasColumnName("Longitude").IsRequired();
         }
     }
 
