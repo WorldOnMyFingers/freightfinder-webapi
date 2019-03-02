@@ -18,6 +18,7 @@ namespace FreightFinder.Core.ViewModels
         public string To { get; set; }
         public string Price { get; set; }
         public string Weight { get; set; }
+        public bool IsTheFreightTaken { get; set; }
         public FreightTypeCode FreightType { get; set; }
 
 

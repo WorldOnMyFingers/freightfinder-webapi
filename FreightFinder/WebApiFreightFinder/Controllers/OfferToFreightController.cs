@@ -28,6 +28,12 @@ namespace WebApiFreightFinder.Controllers
             return offers;
         }
 
+        public FreightOfferDetailsViewModel GetOffer(int offerId)
+        {
+            var offerDetailsViewModel = _offerToFreightServices.GetOffer(offerId);
+            return offerDetailsViewModel;
+        }
+
 
         // POST: api/OfferToFreight
         [Route("Post"), HttpPost]

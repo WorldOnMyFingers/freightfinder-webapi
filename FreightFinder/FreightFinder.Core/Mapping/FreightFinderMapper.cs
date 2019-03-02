@@ -19,6 +19,7 @@ namespace FreightFinder.Core.Mapping
             DtoToViewModelForCity();
             DtoToViewModelForCounty();
             ViewModelToDtoForLocation();
+            DtoToViewModelForFreightOffer();
         }
         public void DtoToViewModelForFreight()
         {
@@ -79,6 +80,15 @@ namespace FreightFinder.Core.Mapping
         {
             CreateMap<County, AddressViewModel>()
                 .ForMember(x => x.County, m => m.MapFrom(s => s.CountyName));
+        }
+
+        public void DtoToViewModelForFreightOffer()
+        {
+            CreateMap<OfferToFreight, FreightOfferDetailsViewModel>()
+            .ForMember(x => x.Id, m => m.MapFrom(s => s.Id))
+            .ForMember(x => x.IsAccepted, m => m.MapFrom(s => s.IsAccepted))
+            .ForMember(x => x.OfferDate, m => m.MapFrom(s => s.OfferDate))
+            .ForMember(x => x.DateAccepted, m => m.MapFrom(s => s.DateAccepted));
         }
     }
 }

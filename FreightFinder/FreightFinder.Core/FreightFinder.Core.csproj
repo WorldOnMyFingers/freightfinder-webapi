@@ -197,6 +197,7 @@
     <Compile Include="ViewModels\LocationViewModel.cs" />
     <Compile Include="ViewModels\ApplyToFreightViewModel.cs" />
     <Compile Include="ViewModels\OfferToFreightViewModel.cs" />
+    <Compile Include="ViewModels\FreightOfferDetailsViewModel.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

@@ -100,11 +100,27 @@ namespace FreightFinder.Service
                 To = x.Freight.DestinationAddress.County.CountyName + "/" + x.Freight.DestinationAddress.City.CityName,
                 Price = x.Freight.TotalPrice.HasValue ? string.Format("{0:#.00}", Convert.ToDecimal(x.Freight.TotalPrice.ToString())) : string.Format("{0:#.00}{1}", Convert.ToDecimal(x.Freight.UnitPrice.ToString()), "/Kg"),
                 Weight = x.Freight.Weight.ToString(),
+                IsTheFreightTaken = x.Freight.IsTaken,
                 FreightType = x.Freight.FreightType
 
             });
               
             return offers;
+        }
+
+        public FreightOfferDetailsViewModel GetOffer(int offerId)
+        {
+            try
+            {
+                var freightOffer = _unitOfWork.OfferToFreightRepository.Get(offerId);
+                var offerDetailsViewModel = AutoMapper.Mapper.Map<FreightOfferDetailsViewModel>(freightOffer);
+                return offerDetailsViewModel;
+            }
+            catch(Exception e)
+            {
+                var message = e.Message;
+                throw;
+            }
         }
     }
 }

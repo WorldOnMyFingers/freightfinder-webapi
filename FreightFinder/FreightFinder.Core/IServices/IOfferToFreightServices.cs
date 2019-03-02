@@ -12,6 +12,7 @@ namespace FreightFinder.Core.IServices
     {
         int Add(string userId, long freightId);
         void Accept(int offerId);
+        FreightOfferDetailsViewModel GetOffer(int offerId);
         IEnumerable<OfferToFreight> GetOffers(int freightId);
         IEnumerable<OfferToFreightViewModel> GetMyOffers(string vehiclePlateNumber);
 
