@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{F50EE1C5-F9FE-4C75-A237-6E7C4803173A}|" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebApiFreightFinder/Models/IdentityModels.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FreightFinder.Core/Domain/Freight.cs">
     <Files>
       <File FileName="FreightFinder.Core/ViewModels/LocationViewModel.cs" Line="10" Column="18" />
       <File FileName="WebApiFreightFinder/Controllers/LocationController.cs" Line="29" Column="1" />
@@ -12,16 +12,17 @@
       <File FileName="WebApiFreightFinder/Controllers/FreightController.cs" Line="24" Column="35" />
       <File FileName="FreightFinder.DAL/Repository/Repository.cs" Line="59" Column="10" />
       <File FileName="WebApiFreightFinder/Web.config" Line="14" Column="239" />
-      <File FileName="FreightFinder.Service/OfferToFreightServices.cs" Line="114" Column="1" />
+      <File FileName="FreightFinder.Service/OfferToFreightServices.cs" Line="116" Column="111" />
       <File FileName="FreightFinder.Core/Domain/OfferToFreight.cs" Line="10" Column="18" />
-      <File FileName="WebApiFreightFinder/Controllers/OfferToFreightController.cs" Line="33" Column="1" />
+      <File FileName="WebApiFreightFinder/Controllers/OfferToFreightController.cs" Line="31" Column="31" />
       <File FileName="FreightFinder.Core/IServices/IOfferToFreightServices.cs" Line="17" Column="85" />
       <File FileName="FreightFinder.Core/ViewModels/OfferToFreightViewModel.cs" Line="22" Column="57" />
-      <File FileName="FreightFinder.Core/ViewModels/FreightViewModel.cs" Line="45" Column="15" />
+      <File FileName="FreightFinder.Core/ViewModels/FreightViewModel.cs" Line="43" Column="24" />
       <File FileName="FreightFinder.Core/ViewModels/AddressViewModel.cs" Line="11" Column="30" />
-      <File FileName="FreightFinder.Core/ViewModels/FreightOfferDetailsViewModel.cs" Line="9" Column="54" />
-      <File FileName="FreightFinder.Core/Mapping/FreightFinderMapper.cs" Line="92" Column="2" />
+      <File FileName="FreightFinder.Core/ViewModels/FreightOfferDetailsViewModel.cs" Line="16" Column="2" />
+      <File FileName="FreightFinder.Core/Mapping/FreightFinderMapper.cs" Line="94" Column="2" />
       <File FileName="WebApiFreightFinder/Models/IdentityModels.cs" Line="30" Column="1" />
+      <File FileName="FreightFinder.Core/Domain/Freight.cs" Line="54" Column="53" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -29,8 +30,12 @@
           <Node name="FreightFinder" expanded="True">
             <Node name="Core" expanded="True">
               <Node name="FreightFinder.Core" expanded="True">
+                <Node name="Domain" expanded="True">
+                  <Node name="Freight.cs" selected="True" />
+                </Node>
                 <Node name="IServices" expanded="True" />
                 <Node name="Mapping" expanded="True" />
+                <Node name="Model" expanded="True" />
                 <Node name="ViewModels" expanded="True" />
               </Node>
             </Node>
@@ -39,9 +44,7 @@
             </Node>
             <Node name="WebApiFreightFinder" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="IdentityModels.cs" selected="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -59,7 +62,6 @@
     <BreakpointStore>
       <Breakpoint file="/Users/emrebabayigit/repo/FreightFinder/WebApiFreightFinder/Controllers/LocationController.cs" relfile="WebApiFreightFinder/Controllers/LocationController.cs" line="34" column="1" />
       <Breakpoint file="/Users/emrebabayigit/repo/FreightFinder/WebApiFreightFinder/Controllers/LocationController.cs" relfile="WebApiFreightFinder/Controllers/LocationController.cs" line="39" column="111" />
-      <Breakpoint file="/Users/emrebabayigit/repo/FreightFinder/WebApiFreightFinder/Controllers/OfferToFreightController.cs" relfile="WebApiFreightFinder/Controllers/OfferToFreightController.cs" line="33" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
