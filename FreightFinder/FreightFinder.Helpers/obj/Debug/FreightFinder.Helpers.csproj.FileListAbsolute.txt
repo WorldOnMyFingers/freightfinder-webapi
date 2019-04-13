@@ -1,0 +1,6 @@
+/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Helpers/bin/Debug/FreightFinder.Helpers.dll
+/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Helpers/bin/Debug/FreightFinder.Helpers.pdb
+/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Helpers/obj/Debug/FreightFinder.Helpers.csprojAssemblyReference.cache
+/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Helpers/obj/Debug/FreightFinder.Helpers.csproj.CoreCompileInputs.cache
+/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Helpers/obj/Debug/FreightFinder.Helpers.dll
+/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Helpers/obj/Debug/FreightFinder.Helpers.pdb

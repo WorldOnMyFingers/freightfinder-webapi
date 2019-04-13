@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,6 +25,12 @@ namespace FreightFinder.Service
             _unitOfWork.Complete();
 
             return true;
+        }
+
+        public Byte[] GetImage(string url)
+        {
+            var image = System.IO.File.ReadAllBytes("/Users/emrebabayigit/Desktop/Drone/DJI_0029.JPG");
+            return image;
         }
     }
 }
