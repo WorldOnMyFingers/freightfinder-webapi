@@ -16,6 +16,9 @@ namespace FreightFinder.Core.Domain
         [StringLength(100)]
         public string AddressLine { get; set; }
 
+        [StringLength(14)]
+        public string Phone { get; set; }
+
         public DateTime DateCreated { get; set; }
 
         public bool IsActive { get; set; }

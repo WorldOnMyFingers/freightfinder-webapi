@@ -1,44 +1,60 @@
 ﻿<Properties StartupConfiguration="{F50EE1C5-F9FE-4C75-A237-6E7C4803173A}|" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebApiFreightFinder/Controllers/FreightController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebApiFreightFinder/Web.config">
     <Files>
       <File FileName="FreightFinder.Core/ViewModels/LocationViewModel.cs" Line="10" Column="18" />
       <File FileName="WebApiFreightFinder/Controllers/LocationController.cs" Line="29" Column="1" />
       <File FileName="FreightFinder.Core/Domain/Location.cs" Line="11" Column="18" />
       <File FileName="FreightFinder.Core/Enums/LocationTypeCodes.cs" Line="9" Column="17" />
-      <File FileName="FreightFinder.DAL/Mapping/DatabaseMapping.cs" Line="158" Column="6" />
+      <File FileName="FreightFinder.DAL/Mapping/DatabaseMapping.cs" Line="43" Column="65" />
       <File FileName="FreightFinder.Core/Mapping/AutoMapperConfiguration.cs" Line="1" Column="1" />
       <File FileName="FreightFinder.Service/LocationServices.cs" Line="26" Column="1" />
-      <File FileName="FreightFinder.Service/FreightServices.cs" Line="71" Column="48" />
-      <File FileName="WebApiFreightFinder/Controllers/FreightController.cs" Line="33" Column="1" />
+      <File FileName="FreightFinder.Service/FreightServices.cs" Line="86" Column="48" />
+      <File FileName="WebApiFreightFinder/Controllers/FreightController.cs" Line="24" Column="38" />
       <File FileName="FreightFinder.DAL/Repository/Repository.cs" Line="59" Column="10" />
-      <File FileName="WebApiFreightFinder/Web.config" Line="14" Column="239" />
+      <File FileName="WebApiFreightFinder/Web.config" Line="28" Column="14" />
       <File FileName="FreightFinder.Service/OfferToFreightServices.cs" Line="116" Column="111" />
       <File FileName="FreightFinder.Core/Domain/OfferToFreight.cs" Line="10" Column="18" />
-      <File FileName="WebApiFreightFinder/Controllers/OfferToFreightController.cs" Line="31" Column="31" />
+      <File FileName="WebApiFreightFinder/Controllers/OfferToFreightController.cs" Line="47" Column="1" />
       <File FileName="FreightFinder.Core/IServices/IOfferToFreightServices.cs" Line="17" Column="85" />
-      <File FileName="FreightFinder.Core/ViewModels/OfferToFreightViewModel.cs" Line="22" Column="57" />
-      <File FileName="FreightFinder.Core/ViewModels/FreightViewModel.cs" Line="43" Column="24" />
-      <File FileName="FreightFinder.Core/ViewModels/AddressViewModel.cs" Line="11" Column="30" />
-      <File FileName="FreightFinder.Core/ViewModels/FreightOfferDetailsViewModel.cs" Line="16" Column="2" />
-      <File FileName="FreightFinder.Core/Mapping/FreightFinderMapper.cs" Line="94" Column="2" />
+      <File FileName="FreightFinder.Core/ViewModels/OfferToFreightViewModel.cs" Line="10" Column="18" />
+      <File FileName="FreightFinder.Core/ViewModels/FreightViewModel.cs" Line="11" Column="18" />
+      <File FileName="FreightFinder.Core/ViewModels/AddressViewModel.cs" Line="9" Column="18" />
+      <File FileName="FreightFinder.Core/ViewModels/FreightOfferDetailsViewModel.cs" Line="10" Column="25" />
+      <File FileName="FreightFinder.Core/Mapping/FreightFinderMapper.cs" Line="49" Column="23" />
       <File FileName="WebApiFreightFinder/Models/IdentityModels.cs" Line="30" Column="1" />
-      <File FileName="FreightFinder.Core/Domain/Freight.cs" Line="54" Column="53" />
+      <File FileName="FreightFinder.Core/Domain/Freight.cs" Line="50" Column="24" />
       <File FileName="WebApiFreightFinder/Controllers/VehicleController.cs" Line="32" Column="1" />
       <File FileName="FreightFinder.Core/IServices/IVehicleServices.cs" Line="15" Column="15" />
       <File FileName="FreightFinder.Service/VehicleServices.cs" Line="33" Column="1" />
       <File FileName="FreightFinder.Service/AllowAnonymousAttribute.cs" Line="1" Column="1" />
+      <File FileName="FreightFinder.DataAccess/Repositories/VehicleLocationRepository.cs" Line="17" Column="46" />
+      <File FileName="FreightFinder.DataAccess/Model1.Context.cs" Line="53" Column="69" />
+      <File FileName="FreightFinder.DAL/FreightFinderDbContext.cs" Line="39" Column="10" />
+      <File FileName="FreightFinder.Core/Domain/Address.cs" Line="9" Column="18" />
+      <File FileName="FreightFinder.Core/IDAL/IAddressRepository.cs" Line="10" Column="54" />
+      <File FileName="FreightFinder.DAL/Repository/AddressRepository.cs" Line="12" Column="49" />
+      <File FileName="FreightFinder.Core/Domain/Company.cs" Line="37" Column="24" />
+      <File FileName="FreightFinder.Core/Domain/State.cs" Line="16" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="FreightFinder" expanded="True" selected="True">
+          <Node name="FreightFinder" expanded="True">
             <Node name="Core" expanded="True">
               <Node name="FreightFinder.Core" expanded="True">
-                <Node name="Domain" expanded="True" />
-                <Node name="IServices" expanded="True" />
-                <Node name="Mapping" expanded="True" />
-                <Node name="Model" expanded="True" />
                 <Node name="ViewModels" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="DataAccess" expanded="True">
+              <Node name="FreightFinder.DAL" expanded="True">
+                <Node name="Mapping" expanded="True" />
+                <Node name="Repository" expanded="True" />
+              </Node>
+              <Node name="FreightFinder.DataAccess" expanded="True">
+                <Node name="Repositories" expanded="True" />
+                <Node name="Model1.edmx" expanded="True">
+                  <Node name="Model1.Context.tt" expanded="True" />
+                </Node>
               </Node>
             </Node>
             <Node name="Services" expanded="True">
@@ -47,6 +63,7 @@
             <Node name="WebApiFreightFinder" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
+              <Node name="Web.config" selected="True" />
             </Node>
           </Node>
         </State>

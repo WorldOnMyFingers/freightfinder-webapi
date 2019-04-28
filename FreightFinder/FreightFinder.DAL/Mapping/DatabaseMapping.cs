@@ -48,6 +48,7 @@ namespace FreightFinder.DAL
             Property(c => c.AddressLine).HasColumnType("varchar").HasColumnName("Address_Line").IsRequired();
             Property(c => c.DateCreated).HasColumnType("datetime").HasColumnName("Date_Created").IsRequired();
             Property(c => c.District).HasColumnType("varchar").HasColumnName("District").IsRequired();
+            Property(c => c.Phone).HasColumnType("varchar").HasColumnName("Phone").IsRequired();
             Property(c => c.IsActive).HasColumnType("bit").HasColumnName("IsActive").IsRequired();
             HasRequired(c => c.Country);
             HasRequired(c => c.City);

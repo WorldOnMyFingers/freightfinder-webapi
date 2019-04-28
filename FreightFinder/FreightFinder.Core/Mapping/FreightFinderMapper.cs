@@ -52,6 +52,7 @@ namespace FreightFinder.Core.Mapping
                 .ForMember(x => x.County, m => m.MapFrom(s => s.County.CountyName))
                 .ForMember(x => x.Country, m => m.MapFrom(s => s.Country.CountryName))
                 .ForMember(x => x.AddressLine, m => m.MapFrom(s => s.AddressLine))
+                .ForMember(x => x.Phone, m => m.MapFrom(s => s.Phone))
                 .ForMember(x => x.District, m => m.MapFrom(s => s.District));
         }
 

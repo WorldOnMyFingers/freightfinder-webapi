@@ -13,5 +13,6 @@ namespace FreightFinder.Core.ViewModels
         public string County { get; set; }
         public string District { get; set; }
         public string AddressLine { get; set; }
+        public string Phone { get; set; }
     }
 }
