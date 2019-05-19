@@ -30,8 +30,6 @@ namespace FreightFinder.Core.Domain
 
         public DateTime DateOfBirth { get; set; }
 
-        public string PicturePath { get; set; }
-
         public virtual Company Company { get; set; }
 
         public UserType UserType { get; set; }
@@ -39,5 +37,7 @@ namespace FreightFinder.Core.Domain
         public DateTime DateCreated { get; set; }
 
         public bool IsActive { get; set; }
+
+        public virtual ICollection<UserImagePath> ImagePaths { get; set; }
     }
 }

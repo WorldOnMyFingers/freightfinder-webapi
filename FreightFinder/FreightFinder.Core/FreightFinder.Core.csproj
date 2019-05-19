@@ -199,6 +199,14 @@
     <Compile Include="ViewModels\ApplyToFreightViewModel.cs" />
     <Compile Include="ViewModels\OfferToFreightViewModel.cs" />
     <Compile Include="ViewModels\FreightOfferDetailsViewModel.cs" />
+    <Compile Include="IServices\IImageServices.cs" />
+    <Compile Include="Domain\VehicleImagePath.cs" />
+    <Compile Include="Domain\UserImagePath.cs" />
+    <Compile Include="ViewModels\UserViewModel.cs" />
+    <Compile Include="ViewModels\ImagePathViewModel.cs" />
+    <Compile Include="ViewModels\VehicleViewModel.cs" />
+    <Compile Include="IServices\IListServices.cs" />
+    <Compile Include="ViewModels\DropDownIdNameViewModel.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

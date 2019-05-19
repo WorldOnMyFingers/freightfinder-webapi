@@ -24,8 +24,6 @@ namespace FreightFinder.Core.Domain
 
         public string EngineNumber { get; set; }
 
-        public string PicturePath { get; set; }
-
         public DateTime DateCreated { get; set; }
 
         public bool IsLoaded { get; set; }
@@ -41,5 +39,7 @@ namespace FreightFinder.Core.Domain
         public virtual Company Company { get; set; }
 
         public virtual User Driver { get; set; }
+
+        public virtual ICollection<VehicleImagePath> ImagePaths { get; set; }
     }
 }

@@ -131,7 +131,6 @@ namespace FreightFinder.DAL
             Property(c => c.DateOfBirth).HasColumnType("datetime").HasColumnName("Date_Of_Birth").IsRequired();
             Property(c => c.DateCreated).HasColumnType("datetime").HasColumnName("Date_Created").IsRequired();
             Property(c => c.Email).HasColumnType("varchar").HasColumnName("Email").IsRequired();
-            Property(c => c.PicturePath).HasColumnType("varchar").HasColumnName("Picture_Path").IsOptional();
             Property(c => c.IsActive).HasColumnType("bit").HasColumnName("Is_Active").IsRequired();
             HasOptional(x => x.Company);
         }
@@ -219,7 +218,6 @@ namespace FreightFinder.DAL
             Property(c => c.EngineNumber).HasColumnType("varchar").HasColumnName("Engine_Number").IsRequired();
             Property(c => c.VehicleIdentificationNumber).HasColumnType("varchar").HasColumnName("Vehicle_Identification_Number").IsRequired();
             Property(c => c.PlateNumber).HasColumnType("varchar").HasColumnName("Plate_Number").IsRequired();
-            Property(c => c.PicturePath).HasColumnType("varchar").HasColumnName("Picture_Path").IsRequired();
             Property(c => c.IsLoaded).HasColumnType("bit").HasColumnName("Is_Loaded").IsRequired();
             Property(c => c.IsActive).HasColumnType("bit").HasColumnName("Is_Active").IsRequired();
             Property(c => c.DateCreated).HasColumnType("datetime").HasColumnName("Date_Created").IsRequired();
@@ -230,6 +228,7 @@ namespace FreightFinder.DAL
             HasRequired(c => c.Brand);
             HasRequired(c => c.Model);
             HasOptional(c => c.Driver);
+            HasMany(c => c.ImagePaths).WithRequired(x=> x.Vehicle);
         }
     }
 
@@ -321,6 +320,28 @@ namespace FreightFinder.DAL
             Property(c => c.IsAccepted).HasColumnType("bit").HasColumnName("Is_Accepted").IsRequired();
             HasRequired(c => c.Vehicle);
             HasRequired(c => c.Driver);
+        }
+    }
+
+    public class VehicleImagePathConfiguration : EntityTypeConfiguration<VehicleImagePath>
+    {
+        public VehicleImagePathConfiguration()
+        {
+            ToTable("VehicleImagePaths");
+            HasKey(c => c.Id);
+            Property(c => c.Name).HasColumnType("varchar").HasColumnName("ImageName").IsRequired();
+            HasRequired(c => c.Vehicle).WithMany(x=> x.ImagePaths);
+        }
+    }
+
+    public class UserImagePathConfiguration : EntityTypeConfiguration<UserImagePath>
+    {
+        public UserImagePathConfiguration()
+        {
+            ToTable("UserImagePaths");
+            HasKey(c => c.Id);
+            Property(c => c.Name).HasColumnType("varchar").HasColumnName("ImageName").IsRequired();
+            HasRequired(c => c.User).WithMany(x => x.ImagePaths);
         }
     }
 }

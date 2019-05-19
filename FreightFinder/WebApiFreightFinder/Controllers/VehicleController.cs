@@ -9,6 +9,7 @@ using System.Web.Http;
 using System.Web.Mvc;
 using FreightFinder.Core.Domain;
 using FreightFinder.Core.IServices;
+using FreightFinder.Core.ViewModels;
 
 namespace WebApiFreightFinder.Controllers
 {
@@ -27,32 +28,19 @@ namespace WebApiFreightFinder.Controllers
             return new string[] { "value1", "value2" };
         }
 
-        public HttpResponseMessage GetImage(string url)
+
+        public IEnumerable<string> GetImageList(long id)
         {
-            var image = _vehicleServices.GetImage(url);
-            HttpResponseMessage result = new HttpResponseMessage(HttpStatusCode.OK);
-            result.Content = new ByteArrayContent(image.ToArray());
-            result.Content.Headers.ContentType = new MediaTypeHeaderValue("image/jpg");
-            return result;
-        }
+            var list = _vehicleServices.GetImageList(id);
 
-
-        public IEnumerable<string> GetImageUrlList(string plateNumber)
-        {
-            var list = new List<string>()
-            {
-                "/Users/emrebabayigit/Desktop/Drone/DJI_0029.JPG /Users/emrebabayigit/Downloads/download.jpeg",
-                "/Users/emrebabayigit/Downloads/download.jpeg /Users/emrebabayigit/Downloads/image.jpg",
-                "/Users/emrebabayigit/Downloads/scania-s-serie-highline-swedish-tanktrailer-tankcargo-Tekno-72802-30615.jpg"
-            };
-
-            return list;
+            return (list);
         }
 
         // GET api/<controller>/5
-        public string Get(int id)
+        public VehicleViewModel Get(int id)
         {
-            return "value";
+            var vehicleViewModel = _vehicleServices.Get(id);
+            return vehicleViewModel;
         }
 
         // POST api/<controller>

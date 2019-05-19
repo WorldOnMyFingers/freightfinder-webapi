@@ -20,6 +20,12 @@ namespace FreightFinder.Core.Mapping
             DtoToViewModelForCounty();
             ViewModelToDtoForLocation();
             DtoToViewModelForFreightOffer();
+            DomainToViewModelForUser();
+            DomainToViewModelForImagePath();
+            DomainToViewModelForVehicle();
+            DomainToViewModelForCountry();
+            DomainToViewModelForCounty();
+            DomainToViewModelForCity();
         }
         public void DtoToViewModelForFreight()
         {
@@ -91,5 +97,57 @@ namespace FreightFinder.Core.Mapping
             .ForMember(x => x.OfferDate, m => m.MapFrom(s => s.OfferDate))
             .ForMember(x => x.DateAccepted, m => m.MapFrom(s => s.DateAccepted));
         }
+
+        public void DomainToViewModelForUser()
+        {
+            CreateMap<User, UserViewModel>()
+                .ForMember(dest => dest.ImagePaths, m => m.MapFrom(src => src.ImagePaths.Select(x => x.Name)));
+        }
+
+        public void DomainToViewModelForImagePath()
+        {
+            CreateMap<UserImagePath, ImagePathViewModel>();
+            CreateMap<VehicleImagePath, ImagePathViewModel>();
+        }
+
+        public void DomainToViewModelForVehicle()
+        {
+            CreateMap<Vehicle, VehicleViewModel>()
+                .ForMember(dest => dest.Id, m => m.MapFrom(src => src.Id))
+                .ForMember(dest => dest.Brand, m => m.MapFrom(src => src.Brand.BrandName))
+                .ForMember(dest => dest.Capacity, m => m.MapFrom(src => src.Capacity))
+                .ForMember(dest => dest.Colour, m => m.MapFrom(src => src.Colour.ColourName))
+                .ForMember(dest => dest.Company, m => m.MapFrom(src => src.Company.CompanyName))
+                .ForMember(dest => dest.DateCreated, m => m.MapFrom(src => src.DateCreated))
+                .ForMember(dest => dest.EngineNumber, m => m.MapFrom(src => src.EngineNumber))
+                .ForMember(dest => dest.IsLoaded, m => m.MapFrom(src => src.IsLoaded))
+                .ForMember(dest => dest.Model, m => m.MapFrom(src => src.Model.ModelName))
+                .ForMember(dest => dest.PlateNumber, m => m.MapFrom(src => src.PlateNumber))
+                .ForMember(dest => dest.VehicleIdentificationNumber, m => m.MapFrom(src => src.VehicleIdentificationNumber))
+                .ForMember(dest => dest.VehicleType, m => m.MapFrom(src => src.VehicleType))
+                .ForMember(dest => dest.ImagePaths, m => m.MapFrom(src => src.ImagePaths.Select(x => x.Name)));
+        }
+
+        public void DomainToViewModelForCountry()
+        {
+            CreateMap<Country, DropDownIdNameViewModel>()
+                .ForMember(dest => dest.Id, m => m.MapFrom(src => src.Id))
+                .ForMember(dest => dest.Name, m => m.MapFrom(src => src.CountryName));
+        }
+
+        public void DomainToViewModelForCounty()
+        {
+            CreateMap<County, DropDownIdNameViewModel>()
+                .ForMember(dest => dest.Id, m => m.MapFrom(src => src.Id))
+                .ForMember(dest => dest.Name, m => m.MapFrom(src => src.CountyName));
+        }
+
+        public void DomainToViewModelForCity()
+        {
+            CreateMap<City, DropDownIdNameViewModel>()
+                .ForMember(dest => dest.Id, m => m.MapFrom(src => src.Id))
+                .ForMember(dest => dest.Name, m => m.MapFrom(src => src.CityName));
+        }
+
     }
 }

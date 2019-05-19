@@ -36,6 +36,9 @@ namespace FreightFinder.DAL
             modelBuilder.Configurations.Add(new FreightConfiguration());
             modelBuilder.Configurations.Add(new OfferToFreightConfiguration());
             modelBuilder.Configurations.Add(new JobOfferToDriverConfiguration());
+            modelBuilder.Configurations.Add(new VehicleImagePathConfiguration());
+            modelBuilder.Configurations.Add(new UserImagePathConfiguration());
+
         }
     }
 }

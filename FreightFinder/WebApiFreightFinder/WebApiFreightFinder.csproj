@@ -272,6 +272,8 @@
     <Compile Include="Startup.cs" />
     <Compile Include="Validators\MyCustomPasswordValidator.cs" />
     <Compile Include="Validators\MyCustomUserValidator.cs" />
+    <Compile Include="Controllers\ImageController.cs" />
+    <Compile Include="Controllers\ListController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />

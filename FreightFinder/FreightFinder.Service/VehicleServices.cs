@@ -4,9 +4,11 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AutoMapper;
 using FreightFinder.Core.Domain;
 using FreightFinder.Core.IoC;
 using FreightFinder.Core.IServices;
+using FreightFinder.Core.ViewModels;
 
 namespace FreightFinder.Service
 {
@@ -29,8 +31,28 @@ namespace FreightFinder.Service
 
         public Byte[] GetImage(string url)
         {
-            var image = System.IO.File.ReadAllBytes("/Users/emrebabayigit/Desktop/Drone/DJI_0029.JPG");
+            var image = System.IO.File.ReadAllBytes(url);
             return image;
+        }
+
+        public IEnumerable<string> GetImageList(long id)
+        {
+            try
+            {
+                var imageList = _unitOfWork.VehicleRepository.Get(id).ImagePaths.Select(x=> x.Name);
+                return imageList;
+            }
+            catch (Exception ex)
+            {
+                var message = ex.Message;
+                throw;
+            }
+        }
+
+        public VehicleViewModel Get(int id)
+        {
+            var vehicleViewModel = Mapper.Map<VehicleViewModel>(_unitOfWork.VehicleRepository.Get(id));
+            return vehicleViewModel;
         }
     }
 }

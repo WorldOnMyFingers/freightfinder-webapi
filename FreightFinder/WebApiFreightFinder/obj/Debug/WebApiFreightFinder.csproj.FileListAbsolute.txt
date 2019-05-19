@@ -170,7 +170,9 @@
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/bin/AutoMapper.dll
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/bin/FreightFinder.DAL.dll
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/bin/System.Device.Portable.dll
+/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/bin/Microsoft.WindowsAzure.Storage.dll
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/bin/FreightFinder.DataAccess.dll
+/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/bin/Microsoft.Azure.KeyVault.Core.dll
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/bin/FreightFinder.Core.pdb
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/bin/FreightFinder.Helpers.IoC.pdb
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/bin/FreightFinder.Helpers.IoC.dll.config
@@ -212,8 +214,11 @@
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/bin/AutoMapper.xml
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/bin/FreightFinder.DAL.pdb
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/bin/FreightFinder.DAL.dll.config
+/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/bin/Microsoft.WindowsAzure.Storage.pdb
+/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/bin/Microsoft.WindowsAzure.Storage.xml
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/bin/FreightFinder.DataAccess.pdb
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/bin/FreightFinder.DataAccess.dll.config
+/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/bin/Microsoft.Azure.KeyVault.Core.xml
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/bin/de/Microsoft.Data.Edm.resources.dll
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/bin/es/Microsoft.Data.Edm.resources.dll
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/bin/fr/Microsoft.Data.Edm.resources.dll

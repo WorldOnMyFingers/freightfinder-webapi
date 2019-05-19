@@ -4,10 +4,12 @@ using System.Data.Entity.Validation;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AutoMapper;
 using FreightFinder.Core.DAL;
 using FreightFinder.Core.Domain;
 using FreightFinder.Core.IoC;
 using FreightFinder.Core.IServices;
+using FreightFinder.Core.ViewModels;
 using FreightFinder.DataAccess.Repositories;
 using Company = FreightFinder.Core.Domain.Company;
 using User = FreightFinder.Core.Model.User;
@@ -81,6 +83,21 @@ namespace FreightFinder.Service
             var user = _unitOfWork.UserRepository.Get(id);
             user.IsActive = true;
             _unitOfWork.Complete();
+        }
+
+        public UserViewModel GetUserById(string id)
+        {
+            try
+            {
+                var userViewModel = Mapper.Map<UserViewModel>(_unitOfWork.UserRepository.Get(id));
+                return userViewModel;
+            }
+            catch (Exception ex)
+            {
+                var message = ex.Message;
+                return null;
+            }
+
         }
     }
 }

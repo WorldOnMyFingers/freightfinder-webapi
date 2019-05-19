@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using FreightFinder.Core.Domain;
+using FreightFinder.Core.ViewModels;
 using User = FreightFinder.Core.Model.User;
 
 
@@ -11,6 +12,7 @@ namespace FreightFinder.Core.IServices
 {
     public interface IUserServices
     {
+        UserViewModel GetUserById(string id);
         Domain.User Get(string email);
 
         bool Add(Domain.User user);
