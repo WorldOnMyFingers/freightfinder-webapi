@@ -133,6 +133,7 @@ namespace FreightFinder.DAL
             Property(c => c.Email).HasColumnType("varchar").HasColumnName("Email").IsRequired();
             Property(c => c.IsActive).HasColumnType("bit").HasColumnName("Is_Active").IsRequired();
             HasOptional(x => x.Company);
+            HasOptional(x => x.Address);
         }
     }
 
@@ -222,7 +223,9 @@ namespace FreightFinder.DAL
             Property(c => c.IsActive).HasColumnType("bit").HasColumnName("Is_Active").IsRequired();
             Property(c => c.DateCreated).HasColumnType("datetime").HasColumnName("Date_Created").IsRequired();
             Property(c => c.VehicleType).HasColumnType("int").HasColumnName("Vehicle_Type_Id").IsRequired();
+            Property(c => c.TrailerType).HasColumnType("int").HasColumnName("Trailer_Type_Id").IsRequired();
             Property(c => c.Capacity).HasColumnType("int").HasColumnName("Capacity").IsRequired();
+            Property(c => c.Year).HasColumnType("smallint").HasColumnName("Year").IsRequired();
             HasRequired(c => c.Company);
             HasRequired(c => c.Colour);
             HasRequired(c => c.Brand);

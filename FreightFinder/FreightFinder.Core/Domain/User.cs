@@ -39,5 +39,7 @@ namespace FreightFinder.Core.Domain
         public bool IsActive { get; set; }
 
         public virtual ICollection<UserImagePath> ImagePaths { get; set; }
+        [Column("Address_Id")]
+        public virtual Address Address { get; set; }
     }
 }

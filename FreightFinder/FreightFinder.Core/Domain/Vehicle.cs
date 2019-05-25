@@ -20,6 +20,8 @@ namespace FreightFinder.Core.Domain
 
         public VehicleType VehicleType { get; set; }
 
+        public TrailerType TrailerType { get; set; }
+
         public string VehicleIdentificationNumber { get; set; }
 
         public string EngineNumber { get; set; }
@@ -29,6 +31,8 @@ namespace FreightFinder.Core.Domain
         public bool IsLoaded { get; set; }
 
         public bool IsActive { get; set; }
+
+        public short Year { get; set; }
 
         public virtual Colour Colour { get; set; }
 

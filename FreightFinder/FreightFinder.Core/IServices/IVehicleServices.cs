@@ -16,6 +16,7 @@ namespace FreightFinder.Core.IServices
         bool Add(Vehicle vehicle);
         Byte[] GetImage(string url);
         IEnumerable<string> GetImageList(long id);
+
     }
 
 }

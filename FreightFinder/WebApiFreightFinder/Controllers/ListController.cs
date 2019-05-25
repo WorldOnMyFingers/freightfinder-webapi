@@ -25,15 +25,34 @@ namespace WebApiFreightFinder.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<DropDownIdNameViewModel> GetCounties()
+        public IEnumerable<DropDownIdNameViewModel> GetCities(int countryId)
         {
-            return _listServices.GetCounties();
+            return _listServices.GetCities(countryId);
         }
 
         [HttpGet]
-        public IEnumerable<DropDownIdNameViewModel> GetCitites()
+        public IEnumerable<DropDownIdNameViewModel> GetCounties(int cityId)
         {
-            return _listServices.GetCities();
+            return _listServices.GetCounties(cityId);
         }
+
+        [HttpGet]
+        public IEnumerable<DropDownNameValueViewModel> GetVehicleBrands()
+        {
+            return _listServices.GetVehicleBrands();
+        }
+
+        [HttpGet]
+        public IEnumerable<DropDownNameValueViewModel> GetVehicleModels(string brandCode)
+        {
+            return _listServices.GetVehicleModels(brandCode);
+        }
+
+        [HttpGet]
+        public IEnumerable<DropDownNameValueViewModel> GetColors()
+        {
+            return _listServices.GetColors();
+        }
+
     }
 }

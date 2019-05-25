@@ -1,37 +1,43 @@
 ﻿<Properties StartupConfiguration="{F50EE1C5-F9FE-4C75-A237-6E7C4803173A}|" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebApiFreightFinder/Controllers/ListController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FreightFinder.Core/Enums/TrailerType.cs">
     <Files>
-      <File FileName="FreightFinder.Service/UserServices.cs" Line="92" Column="1" />
-      <File FileName="WebApiFreightFinder/Controllers/UserController.cs" Line="33" Column="1" />
-      <File FileName="FreightFinder.DAL/Mapping/DatabaseMapping.cs" Line="342" Column="30" />
+      <File FileName="FreightFinder.Service/UserServices.cs" Line="92" Column="58" />
+      <File FileName="WebApiFreightFinder/Controllers/UserController.cs" Line="17" Column="48" />
+      <File FileName="FreightFinder.DAL/Mapping/DatabaseMapping.cs" Line="226" Column="34" />
       <File FileName="FreightFinder.Core/IServices/IUserServices.cs" Line="15" Column="23" />
-      <File FileName="FreightFinder.Core/ViewModels/UserViewModel.cs" Line="35" Column="1" />
+      <File FileName="FreightFinder.Core/ViewModels/UserViewModel.cs" Line="29" Column="1" />
       <File FileName="FreightFinder.DAL/Repository/Repository.cs" Line="28" Column="1" />
       <File FileName="WebApiFreightFinder/Controllers/ImageController.cs" Line="26" Column="1" />
       <File FileName="FreightFinder.Service/ImageServices.cs" Line="58" Column="1" />
-      <File FileName="WebApiFreightFinder/Controllers/VehicleController.cs" Line="43" Column="26" />
-      <File FileName="FreightFinder.Service/VehicleServices.cs" Line="54" Column="57" />
-      <File FileName="FreightFinder.Core/IServices/IVehicleServices.cs" Line="15" Column="12" />
-      <File FileName="FreightFinder.Core/ViewModels/VehicleViewModel.cs" Line="18" Column="1" />
-      <File FileName="FreightFinder.Core/Domain/Vehicle.cs" Line="21" Column="22" />
+      <File FileName="WebApiFreightFinder/Controllers/VehicleController.cs" Line="42" Column="1" />
+      <File FileName="FreightFinder.Service/VehicleServices.cs" Line="57" Column="1" />
+      <File FileName="FreightFinder.Core/IServices/IVehicleServices.cs" Line="19" Column="1" />
+      <File FileName="FreightFinder.Core/Domain/Vehicle.cs" Line="23" Column="28" />
       <File FileName="FreightFinder.Core/Domain/VehicleModel.cs" Line="1" Column="1" />
-      <File FileName="FreightFinder.Core/Mapping/FreightFinderMapper.cs" Line="142" Column="47" />
+      <File FileName="FreightFinder.Core/Mapping/FreightFinderMapper.cs" Line="132" Column="47" />
       <File FileName="FreightFinder.Core/ViewModels/FreightViewModel.cs" Line="24" Column="1" />
       <File FileName="FreightFinder.Core/Enums/FreightTypeCode.cs" Line="9" Column="17" />
       <File FileName="WebApiFreightFinder/Controllers/FreightController.cs" Line="36" Column="1" />
       <File FileName="FreightFinder.Service/FreightServices.cs" Line="83" Column="1" />
-      <File FileName="FreightFinder.Core/Enums/VehicleType.cs" Line="9" Column="17" />
-      <File FileName="WebApiFreightFinder/Controllers/LocationController.cs" Line="29" Column="1" />
-      <File FileName="FreightFinder.Core/Domain/User.cs" Line="33" Column="27" />
+      <File FileName="FreightFinder.Core/Enums/VehicleType.cs" Line="15" Column="19" />
+      <File FileName="WebApiFreightFinder/Controllers/LocationController.cs" Line="25" Column="1" />
+      <File FileName="FreightFinder.Core/Domain/User.cs" Line="43" Column="53" />
       <File FileName="WebApiFreightFinder/Controllers/ValuesController.cs" Line="1" Column="1" />
-      <File FileName="WebApiFreightFinder/Controllers/ListController.cs" Line="13" Column="25" />
+      <File FileName="WebApiFreightFinder/Controllers/ListController.cs" Line="42" Column="1" />
       <File FileName="FreightFinder.DAL/Repository/CountryRepository.cs" Line="1" Column="1" />
-      <File FileName="FreightFinder.Service/ListServices.cs" Line="27" Column="122" />
-      <File FileName="FreightFinder.Core/IServices/IListServices.cs" Line="11" Column="60" />
-      <File FileName="FreightFinder.Core/ViewModels/DropDownIdNameViewModel.cs" Line="8" Column="30" />
+      <File FileName="FreightFinder.Service/ListServices.cs" Line="57" Column="43" />
+      <File FileName="FreightFinder.Core/IServices/IListServices.cs" Line="7" Column="22" />
+      <File FileName="FreightFinder.Core/ViewModels/DropDownIdNameViewModel.cs" Line="8" Column="41" />
       <File FileName="FreightFinder.Core/Domain/Country.cs" Line="8" Column="18" />
       <File FileName="FreightFinder.Service/JobOfferToDriverServices.cs" Line="14" Column="54" />
       <File FileName="WebApiFreightFinder/Controllers/JobOfferToDriverController.cs" Line="17" Column="25" />
+      <File FileName="FreightFinder.Core/IDAL/IRepository.cs" Line="13" Column="30" />
+      <File FileName="FreightFinder.DAL/UnitOfWork.cs" Line="1" Column="1" />
+      <File FileName="FreightFinder.DAL/FreightFinderDbContext.cs" Line="1" Column="1" />
+      <File FileName="FreightFinder.Core/ViewModels/AddressViewModel.cs" Line="1" Column="1" />
+      <File FileName="FreightFinder.Core/ViewModels/DropDownNameValueViewModel.cs" Line="4" Column="18" />
+      <File FileName="FreightFinder.Core/ViewModels/VehicleViewModel.cs" Line="36" Column="1" />
+      <File FileName="FreightFinder.Core/Enums/TrailerType.cs" Line="16" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -40,7 +46,10 @@
             <Node name="Core" expanded="True">
               <Node name="FreightFinder.Core" expanded="True">
                 <Node name="Domain" expanded="True" />
-                <Node name="Enums" expanded="True" />
+                <Node name="Enums" expanded="True">
+                  <Node name="TrailerType.cs" selected="True" />
+                </Node>
+                <Node name="IDAL" expanded="True" />
                 <Node name="IServices" expanded="True" />
                 <Node name="Mapping" expanded="True" />
                 <Node name="ViewModels" expanded="True" />
@@ -49,7 +58,6 @@
             <Node name="DataAccess" expanded="True">
               <Node name="FreightFinder.DAL" expanded="True">
                 <Node name="Mapping" expanded="True" />
-                <Node name="Repository" expanded="True" />
               </Node>
             </Node>
             <Node name="Helpers" expanded="True">
@@ -59,9 +67,7 @@
               <Node name="FreightFinder.Service" expanded="True" />
             </Node>
             <Node name="WebApiFreightFinder" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="ListController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Services" expanded="True" />
             </Node>
           </Node>

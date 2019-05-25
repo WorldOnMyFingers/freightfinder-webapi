@@ -35,6 +35,7 @@ namespace FreightFinder.Core.ViewModels
 
         public bool IsActive { get; set; }
 
-        public virtual  IEnumerable<string> ImagePaths { get; set; }
+        public virtual IEnumerable<string> ImagePaths { get; set; }
+        public AddressViewModel Address { get; set; }
     }
 }

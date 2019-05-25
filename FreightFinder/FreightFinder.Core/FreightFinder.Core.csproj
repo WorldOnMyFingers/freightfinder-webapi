@@ -207,6 +207,8 @@
     <Compile Include="ViewModels\VehicleViewModel.cs" />
     <Compile Include="IServices\IListServices.cs" />
     <Compile Include="ViewModels\DropDownIdNameViewModel.cs" />
+    <Compile Include="ViewModels\DropDownNameValueViewModel.cs" />
+    <Compile Include="Enums\TrailerType.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

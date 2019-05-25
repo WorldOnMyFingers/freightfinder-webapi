@@ -18,6 +18,8 @@ namespace FreightFinder.Core.ViewModels
 
         public VehicleType VehicleType { get; set; }
 
+        public TrailerType TrailerType { get; set; }
+
         public string VehicleIdentificationNumber { get; set; }
 
         public string EngineNumber { get; set; }
@@ -28,15 +30,18 @@ namespace FreightFinder.Core.ViewModels
 
         public bool IsActive { get; set; }
 
-        public  string Colour { get; set; }
+        public short Year { get; set; }
 
-        public  string Brand { get; set; }
+        public  string ColourCode { get; set; }
 
-        public  string Model { get; set; }
+        public  string BrandCode { get; set; }
+
+        public  string ModelCode { get; set; }
 
         public  string Company { get; set; }
 
         public  IEnumerable<string> ImagePaths { get; set; }
+       
 
     }
 }

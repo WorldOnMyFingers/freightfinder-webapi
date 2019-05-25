@@ -51,8 +51,18 @@ namespace FreightFinder.Service
 
         public VehicleViewModel Get(int id)
         {
-            var vehicleViewModel = Mapper.Map<VehicleViewModel>(_unitOfWork.VehicleRepository.Get(id));
-            return vehicleViewModel;
+
+            try
+            {
+                var vehicleViewModel = Mapper.Map<VehicleViewModel>(_unitOfWork.VehicleRepository.Get(id));
+                return vehicleViewModel;
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
+
+
     }
 }

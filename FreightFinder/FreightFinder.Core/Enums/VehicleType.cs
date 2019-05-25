@@ -8,15 +8,10 @@ namespace FreightFinder.Core.Enums
 {
     public enum VehicleType
     {
-
-        Tipper,
-        FlatBed,
-        Refrigerated,
-        LowBed,
-        ExtendableFlatBed,
-        EnclosedTrailer,
-        Tautliner,
-
-
+        Truck,
+        TwelveWheeler,
+        TenWheeler,
+        EightWheeler,
+        SixWheeler,
     }
 }
