@@ -9,14 +9,3 @@
 /Users/emrebabayigit/repo/FreightFinder/FreightFinder.TestFixture/obj/Debug/FreightFinder.TestFixture.csproj.CopyComplete
 /Users/emrebabayigit/repo/FreightFinder/FreightFinder.TestFixture/obj/Debug/FreightFinder.TestFixture.dll
 /Users/emrebabayigit/repo/FreightFinder/FreightFinder.TestFixture/obj/Debug/FreightFinder.TestFixture.pdb
-/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.TestFixture/bin/Debug/FreightFinder.TestFixture.dll
-/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.TestFixture/bin/Debug/FreightFinder.TestFixture.pdb
-/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.TestFixture/bin/Debug/FreightFinder.Core.dll
-/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.TestFixture/bin/Debug/AutoMapper.dll
-/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.TestFixture/bin/Debug/FreightFinder.Core.pdb
-/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.TestFixture/bin/Debug/AutoMapper.xml
-/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.TestFixture/obj/Debug/FreightFinder.TestFixture.csprojAssemblyReference.cache
-/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.TestFixture/obj/Debug/FreightFinder.TestFixture.csproj.CoreCompileInputs.cache
-/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.TestFixture/obj/Debug/FreightFinder.TestFixture.csproj.CopyComplete
-/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.TestFixture/obj/Debug/FreightFinder.TestFixture.dll
-/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.TestFixture/obj/Debug/FreightFinder.TestFixture.pdb

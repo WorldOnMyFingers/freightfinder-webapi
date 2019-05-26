@@ -89,23 +89,30 @@ namespace FreightFinder.Service
 
         public IEnumerable<OfferToFreightViewModel> GetMyOffers(string vehiclePlateNumber)
         {
-            var offers = _unitOfWork.OfferToFreightRepository.GetAll().Where(x => x.Vehicle.PlateNumber == vehiclePlateNumber && x.IsActive).Select(x => new OfferToFreightViewModel
+            try
             {
-                OfferId = x.Id,
-                FreightId = x.Freight.Id,
-                DateAccepted = x.DateAccepted,
-                IsAccepted = x.IsAccepted,
-                OfferDate = x.OfferDate,
-                From = x.Freight.Address.County.CountyName + "/" + x.Freight.Address.City.CityName,
-                To = x.Freight.DestinationAddress.County.CountyName + "/" + x.Freight.DestinationAddress.City.CityName,
-                Price = x.Freight.TotalPrice.HasValue ? string.Format("{0:#.00}", Convert.ToDecimal(x.Freight.TotalPrice.ToString())) : string.Format("{0:#.00}{1}", Convert.ToDecimal(x.Freight.UnitPrice.ToString()), "/Kg"),
-                Weight = x.Freight.Weight.ToString(),
-                IsTheFreightTaken = x.Freight.IsTaken,
-                FreightType = x.Freight.FreightType
+                var offers = _unitOfWork.OfferToFreightRepository.GetAll().Where(x => x.Vehicle.PlateNumber == vehiclePlateNumber && x.IsActive).Select(x => new OfferToFreightViewModel
+                {
+                    OfferId = x.Id,
+                    FreightId = x.Freight.Id,
+                    DateAccepted = x.DateAccepted,
+                    IsAccepted = x.IsAccepted,
+                    OfferDate = x.OfferDate,
+                    From = x.Freight.Address.County.CountyName + "/" + x.Freight.Address.City.CityName,
+                    To = x.Freight.DestinationAddress.County.CountyName + "/" + x.Freight.DestinationAddress.City.CityName,
+                    Price = x.Freight.TotalPrice.HasValue ? string.Format("{0:#.00}", Convert.ToDecimal(x.Freight.TotalPrice.ToString())) : string.Format("{0:#.00}{1}", Convert.ToDecimal(x.Freight.UnitPrice.ToString()), "/Kg"),
+                    Weight = x.Freight.Weight.ToString(),
+                    IsTheFreightTaken = x.Freight.IsTaken,
+                    FreightType = x.Freight.FreightType
 
-            });
-              
-            return offers;
+                });
+
+                return offers;
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
         }
 
         public FreightOfferDetailsViewModel GetOffer(int offerId)

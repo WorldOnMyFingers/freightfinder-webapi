@@ -10,8 +10,8 @@
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Core/bin/Debug/FreightFinder.Core.pdb
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Core/bin/Debug/AutoMapper.dll
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Core/bin/Debug/AutoMapper.xml
+/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Core/obj/Debug/FreightFinder.Core.csprojAssemblyReference.cache
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Core/obj/Debug/FreightFinder.Core.csproj.CoreCompileInputs.cache
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Core/obj/Debug/FreightFinder.Core.csproj.CopyComplete
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Core/obj/Debug/FreightFinder.Core.dll
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Core/obj/Debug/FreightFinder.Core.pdb
-/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Core/obj/Debug/FreightFinder.Core.csprojAssemblyReference.cache
