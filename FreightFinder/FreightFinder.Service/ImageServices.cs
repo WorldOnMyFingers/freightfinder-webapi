@@ -4,7 +4,6 @@ using System.IO;
 using System.Net;
 using System.Web;
 using FreightFinder.Core.IServices;
-using Microsoft.Azure;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Blob;
 
