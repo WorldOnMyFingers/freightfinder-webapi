@@ -15,6 +15,8 @@ namespace FreightFinder.Core.Mapping
         {
             DtoToViewModelForFreight();
             DtoToViewModelForAddress();
+            PostToDtoForAddress();
+            PostToDomainForUser();
             DtoToViewModelForCountry();
             DtoToViewModelForCity();
             DtoToViewModelForCounty();
@@ -65,6 +67,14 @@ namespace FreightFinder.Core.Mapping
                 .ForMember(x => x.District, m => m.MapFrom(s => s.District));
         }
 
+        public void PostToDtoForAddress()
+        {
+            CreateMap<PostAddressViewModel, Address>()
+                .ForMember(x => x.AddressLine, m => m.MapFrom(s => s.AddressLine))
+                .ForMember(x => x.Phone, m => m.MapFrom(s => s.Phone))
+                .ForMember(x => x.District, m => m.MapFrom(s => s.District));
+        }
+
         public void ViewModelToDtoForLocation()
         {
             CreateMap<LocationViewModel, Location>()
@@ -105,6 +115,16 @@ namespace FreightFinder.Core.Mapping
         {
             CreateMap<User, UserViewModel>()
                 .ForMember(dest => dest.ImagePaths, m => m.MapFrom(src => src.ImagePaths.Select(x => x.Name)));
+        }
+
+        public void PostToDomainForUser()
+        {
+            CreateMap<PostUserViewModel, User>()
+                .ForMember(dest => dest.Id, m => m.MapFrom(src => src.Id))
+                .ForMember(dest => dest.Name, m => m.MapFrom(src => src.Name))
+                .ForMember(dest => dest.Surename, m => m.MapFrom(src => src.Surename))
+                .ForMember(dest => dest.Mobile, m => m.MapFrom(src => src.Mobile))
+                .ForMember(dest => dest.Email, m => m.MapFrom(src => src.Email));
         }
 
         public void DomainToViewModelForImagePath()

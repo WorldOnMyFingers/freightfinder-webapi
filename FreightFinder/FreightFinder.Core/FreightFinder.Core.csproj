@@ -209,6 +209,8 @@
     <Compile Include="ViewModels\DropDownIdNameViewModel.cs" />
     <Compile Include="ViewModels\DropDownNameValueViewModel.cs" />
     <Compile Include="Enums\TrailerType.cs" />
+    <Compile Include="ViewModels\PostUserViewModel.cs" />
+    <Compile Include="ViewModels\PostAddressViewModel.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

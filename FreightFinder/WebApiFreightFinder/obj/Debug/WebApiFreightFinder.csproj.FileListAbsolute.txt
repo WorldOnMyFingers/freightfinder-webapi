@@ -249,7 +249,7 @@
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/obj/Debug/WebApiFreightFinder.csprojAssemblyReference.cache
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/obj/Debug/WebApiFreightFinder.Properties.Resources.resources
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/obj/Debug/WebApiFreightFinder.csproj.GenerateResource.cache
-/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/obj/Debug/WebApiFreightFinder.csproj.CoreCompileInputs.cache
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/obj/Debug/WebApiFreightFinder.csproj.CopyComplete
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/obj/Debug/WebApiFreightFinder.dll
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/obj/Debug/WebApiFreightFinder.pdb
+/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/WebApiFreightFinder/obj/Debug/WebApiFreightFinder.csproj.CoreCompileInputs.cache

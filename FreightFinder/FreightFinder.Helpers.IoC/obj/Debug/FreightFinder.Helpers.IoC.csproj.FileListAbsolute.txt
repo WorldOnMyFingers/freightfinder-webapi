@@ -77,7 +77,7 @@
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Helpers.IoC/bin/Debug/FreightFinder.DataAccess.dll.config
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Helpers.IoC/bin/Debug/Microsoft.Azure.KeyVault.Core.xml
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Helpers.IoC/obj/Debug/FreightFinder.Helpers.IoC.csprojAssemblyReference.cache
-/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Helpers.IoC/obj/Debug/FreightFinder.Helpers.IoC.csproj.CoreCompileInputs.cache
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Helpers.IoC/obj/Debug/FreightFinder.Helpers.IoC.csproj.CopyComplete
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Helpers.IoC/obj/Debug/FreightFinder.Helpers.IoC.dll
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Helpers.IoC/obj/Debug/FreightFinder.Helpers.IoC.pdb
+/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Helpers.IoC/obj/Debug/FreightFinder.Helpers.IoC.csproj.CoreCompileInputs.cache

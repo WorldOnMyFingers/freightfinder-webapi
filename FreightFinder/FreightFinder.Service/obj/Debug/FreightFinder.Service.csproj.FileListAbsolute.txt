@@ -110,7 +110,7 @@ C:/FreightFinder/FreightFinder.Service/obj/Debug/FreightFinder.Service.pdb
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Service/bin/Debug/Microsoft.WindowsAzure.Storage.pdb
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Service/bin/Debug/Microsoft.WindowsAzure.Storage.xml
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Service/obj/Debug/FreightFinder.Service.csprojAssemblyReference.cache
-/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Service/obj/Debug/FreightFinder.Service.csproj.CoreCompileInputs.cache
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Service/obj/Debug/FreightFinder.Service.csproj.CopyComplete
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Service/obj/Debug/FreightFinder.Service.dll
 /Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Service/obj/Debug/FreightFinder.Service.pdb
+/Users/emrebabayigit/repo/freightfinder-webapi/FreightFinder/FreightFinder.Service/obj/Debug/FreightFinder.Service.csproj.CoreCompileInputs.cache

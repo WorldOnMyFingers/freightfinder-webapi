@@ -39,7 +39,8 @@ namespace WebApiFreightFinder.Controllers
             return result;
         }
 
-        public User Put(User user)
+        [HttpPut]
+        public User Put(PostUserViewModel user)
         {
             var result = _userServices.Update(user);
 

@@ -1,18 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.Entity.Validation;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using AutoMapper;
-using FreightFinder.Core.DAL;
 using FreightFinder.Core.Domain;
 using FreightFinder.Core.IoC;
 using FreightFinder.Core.IServices;
 using FreightFinder.Core.ViewModels;
-using FreightFinder.DataAccess.Repositories;
-using Company = FreightFinder.Core.Domain.Company;
-using User = FreightFinder.Core.Model.User;
 
 
 namespace FreightFinder.Service
@@ -20,10 +13,12 @@ namespace FreightFinder.Service
     public class UserServices : IUserServices
     {
         private IUnitOfWork _unitOfWork { get; set; }
+        private readonly IMapper _mapper;
 
-        public UserServices(IUnitOfWork unitOfWork)
+        public UserServices(IUnitOfWork unitOfWork, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
+            _mapper = mapper;
         }
 
 
@@ -63,9 +58,10 @@ namespace FreightFinder.Service
 
         }
 
-        public Core.Domain.User Update(Core.Domain.User user)
+        public User Update(PostUserViewModel postUser)
         {
-
+            var user = _mapper.Map<User>(postUser);
+            user.Address = PostAddressToAddress(postUser);
             _unitOfWork.UserRepository.Update(user);
             _unitOfWork.Complete();
 
@@ -98,6 +94,15 @@ namespace FreightFinder.Service
                 return null;
             }
 
+        }
+        
+        private Address PostAddressToAddress(PostUserViewModel postUser)
+        {
+            var address = _mapper.Map<Address>(postUser);
+            address.Country = _unitOfWork.CountryRepository.Get(postUser.CountryId);
+            address.City = _unitOfWork.CityRepository.Get(postUser.CityId);
+            address.County = _unitOfWork.CountyRepository.Get(postUser.CountyId);
+            return address;
         }
     }
 }

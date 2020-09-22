@@ -17,7 +17,7 @@ namespace FreightFinder.Core.IServices
 
         bool Add(Domain.User user);
 
-        Domain.User Update(Domain.User user);
+        Domain.User Update(PostUserViewModel user);
 
         Credentials GetCredentials(string id);
 
